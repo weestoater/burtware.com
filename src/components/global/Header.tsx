@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/burt.png";
 
 interface HeaderProps {
-  site?: string;
+  site: string;
 }
 
 export default function Header(props: HeaderProps) {
@@ -16,6 +16,8 @@ export default function Header(props: HeaderProps) {
       <button
         className="navbar-toggler"
         type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#topNavBar"
         data-toggle="collapse"
         data-target="#topNavBar"
         aria-controls="topNavBar"
