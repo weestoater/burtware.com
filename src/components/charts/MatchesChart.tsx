@@ -1,17 +1,19 @@
 import React from "react";
 import "ag-charts-community";
 import { AgChartsReact } from "ag-charts-react";
-import goalsData from "../../data/mfc-goals.json";
+import matchesData from "../../data/mfc-matches.json";
 
-export default function GoalsChart() {
+export default function MatchesChart() {
   const options = {
-    data: goalsData,
+    title: { text: "Motherwell F.C. Match Results" },
+    subtitle: { text: "Season 2020-2021" },
+    data: matchesData,
     series: [
       {
-        type: "scatter",
-        yKey: "goals",
-        xKey: "player",
-        showInLegend: false,
+        type: "column",
+        xKey: "date",
+        yKeys: ["conceded", "scored"],
+        yNames: ["conceded", "scored"],
       },
     ],
     marker: {
@@ -23,7 +25,7 @@ export default function GoalsChart() {
     <div className="col-md-12 col-sm-12 mb-4">
       <div className="card">
         <div className="card-header">
-          <i className="bi bi-bar-chart mr-3" /> Motherwell F.C. Goals
+          <i className="bi bi-bar-chart mr-3" /> Motherwell F.C. Matches
         </div>
         <div className="card-body">
           <AgChartsReact options={options} />
