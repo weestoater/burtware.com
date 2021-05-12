@@ -1,17 +1,26 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+import Header from "./components/global/Header";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Charts from './pages/Charts';
+
+export default function App() {
   return (
-    <div className="container">
-      <header className="row my-4">
-        <div className="col-lg">
-          <h1>
-            <i className="bi bi-code text-warning" /> burtware.com
-          </h1>
-        </div>
-      </header>
-    </div>
+    <Router>
+      <Header site="burtware.com" />
+      <div className="container-fluid">
+        <main>
+          <div className="container-fluid mt-4">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/charts" component={Charts} />
+            </Switch>
+          </div>
+        </main>
+      </div>
+    </Router>
   );
 }
-
-export default App;

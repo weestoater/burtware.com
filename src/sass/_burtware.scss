@@ -1,0 +1,27 @@
+/*    header  */
+.header-logo {
+    height: 2.5rem !important;
+    margin-left: 1.25rem !important;
+    margin-right: 1.25rem !important;
+    border: 3px solid #fff;
+    border-bottom: 5px solid #fff;
+    box-shadow: -2px 0 8px #111;
+    transform: rotate(-10deg);
+}
+
+#topNavBar {
+    a.nav-link {
+        padding: .5rem 1rem;
+    }
+}
+
+main {
+    p.footer {
+        display: block;
+        width: 95%;
+        position: absolute;
+        bottom: 0;
+        border-top: 1px dashed #444;
+        line-height: 2rem;
+    }
+}

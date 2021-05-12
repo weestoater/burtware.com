@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# burtware.com
+
+This is the AWS hobby site for burtware aka I.Burrett.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
