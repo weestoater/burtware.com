@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/burt.png";
-
 interface HeaderProps {
   site: string;
 }
@@ -9,7 +7,7 @@ interface HeaderProps {
 export default function Header(props: HeaderProps) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <img src={logo} alt="" className="header-logo" />
+      <i className="bi bi-code-slash text-warning mx-4" aria-label="code" />
       <NavLink className="navbar-brand" to="/">
         {props.site}
       </NavLink>
