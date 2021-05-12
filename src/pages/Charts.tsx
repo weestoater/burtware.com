@@ -1,5 +1,10 @@
 import React from "react";
+import GoalsChart from "../components/charts/GoalsChart";
 
 export default function Charts() {
-  return <p>Charts go here...</p>;
+  return (
+    <div className="row">
+      <GoalsChart />
+    </div>
+  );
 }
