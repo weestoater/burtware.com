@@ -5,22 +5,49 @@ import goalsData from "../../data/mfc-goals.json";
 
 export default function GoalsChart() {
   const options = {
+    title: { text: "Motherwell F.C. Goal Scorers" },
+    subtitle: { text: "Season 2020-2021" },
     data: goalsData,
+    height: 400,
+    padding: {
+      left: 50,
+      right: 50,
+    },
+    axes: [
+      {
+        type: "category",
+        position: "bottom",
+        label: {
+          rotation: 90,
+        },
+        tick: {
+          count: 3,
+        },
+      },
+      {
+        type: "number",
+        position: "left",
+        title: {
+          enabled: true,
+          text: "# of Goals",
+        },
+      },
+    ],
     series: [
       {
-        type: "scatter",
+        type: "line",
         yKey: "goals",
         xKey: "player",
         showInLegend: false,
       },
     ],
     marker: {
-      size: 7,
+      size: 15,
     },
   };
 
   return (
-    <div className="col-md-12 col-sm-12 mb-4">
+    <div className="col-md-6 col-sm-12 mb-4">
       <div className="card">
         <div className="card-header">
           <i className="bi bi-bar-chart mr-3" /> Motherwell F.C. Goals

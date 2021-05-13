@@ -21,8 +21,8 @@ export default function MatchesChart() {
         type: "category",
         position: "bottom",
         label: {
-          rotation: 90
-        }
+          rotation: 90,
+        },
       },
       {
         type: "number",
@@ -47,7 +47,7 @@ export default function MatchesChart() {
   };
 
   return (
-    <div className="col-md-12 col-sm-12 mb-4">
+    <div className="col-md-6 col-sm-12 mb-4">
       <div className="card">
         <div className="card-header">
           <i className="bi bi-bar-chart mr-3" /> Motherwell F.C. Matches
