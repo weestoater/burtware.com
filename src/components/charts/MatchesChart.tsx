@@ -8,12 +8,37 @@ export default function MatchesChart() {
     title: { text: "Motherwell F.C. Match Results" },
     subtitle: { text: "Season 2020-2021" },
     data: matchesData,
+    height: 400,
+    padding: {
+      left: 50,
+      right: 50,
+    },
+    legend: {
+      position: "top",
+    },
+    axes: [
+      {
+        type: "category",
+        position: "bottom",
+        label: {
+          rotation: 90
+        }
+      },
+      {
+        type: "number",
+        position: "left",
+        title: {
+          enabled: true,
+          text: "# of Goals",
+        },
+      },
+    ],
     series: [
       {
         type: "column",
         xKey: "date",
         yKeys: ["conceded", "scored"],
-        yNames: ["conceded", "scored"],
+        yNames: ["Goals Conceded", "Goals Scored"],
       },
     ],
     marker: {
