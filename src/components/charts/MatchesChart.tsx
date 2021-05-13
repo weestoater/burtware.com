@@ -23,6 +23,10 @@ export default function MatchesChart() {
         label: {
           rotation: 90,
         },
+        tick: {
+          count: 2,
+          size: 10,
+        },
       },
       {
         type: "number",
@@ -30,6 +34,10 @@ export default function MatchesChart() {
         title: {
           enabled: true,
           text: "# of Goals",
+        },
+        tick: {
+          count: 5,
+          size: 10,
         },
       },
     ],

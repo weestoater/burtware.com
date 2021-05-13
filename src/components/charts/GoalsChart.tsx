@@ -21,7 +21,8 @@ export default function GoalsChart() {
           rotation: 90,
         },
         tick: {
-          count: 3,
+          count: 2,
+          size: 10,
         },
       },
       {
@@ -30,6 +31,10 @@ export default function GoalsChart() {
         title: {
           enabled: true,
           text: "# of Goals",
+        },
+        tick: {
+          count: 4,
+          size: 10,
         },
       },
     ],
