@@ -43,7 +43,7 @@ export default function MatchesChart() {
     ],
     series: [
       {
-        type: "column",
+        type: "area",
         xKey: "date",
         yKeys: ["conceded", "scored"],
         yNames: ["Goals Conceded", "Goals Scored"],
