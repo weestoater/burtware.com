@@ -10,8 +10,8 @@ export default function MatchesChart() {
     data: matchesData,
     height: 400,
     padding: {
-      left: 50,
-      right: 50,
+      left: 10,
+      right: 10,
     },
     legend: {
       position: "top",

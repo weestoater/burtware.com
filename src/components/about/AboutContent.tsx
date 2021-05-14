@@ -17,7 +17,11 @@ export default function AboutContent() {
       <p>
         I also want to use it to trial different charting libraries and
         implement the fabulous React Testing Library based on{" "}
-        <a href="http://www.testingjavascript.com" target="_blank">
+        <a
+          href="http://www.testingjavascript.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           testing javascript
         </a>{" "}
         course from <b>Kent C. Dodds</b>.
@@ -25,7 +29,7 @@ export default function AboutContent() {
       <p className="footer">
         &copy; {thisYear} &middot; Except where otherwise noted, content on this
         site is licensed under a{" "}
-        <a href="http://creativecommons.org" target="_blank">
+        <a href="http://creativecommons.org" target="_blank" rel="noreferrer">
           Creative Commons Attribution 4.0 International license
         </a>
         .
