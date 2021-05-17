@@ -52,7 +52,7 @@ export default function GoalsChart() {
   };
 
   return (
-    <div className="col-md-6 col-sm-12 mb-4">
+    <div className="col-lg-6 col-sm-12 mb-4">
       <div className="card">
         <div className="card-header">
           <i className="bi bi-bar-chart mr-3" /> Motherwell F.C. Goals
