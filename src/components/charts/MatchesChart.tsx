@@ -43,10 +43,25 @@ export default function MatchesChart() {
     ],
     series: [
       {
-        type: "area",
+        type: "column",
         xKey: "date",
         yKeys: ["conceded", "scored"],
         yNames: ["Goals Conceded", "Goals Scored"],
+        tooltip: {
+          renderer: function (params: any) {
+            return (
+              "<div class='ag-chart-tooltip-title' style='background-color:" +
+              params.color +
+              "'>" +
+              params.yName +
+              "</div><div class='ag-chart-tooltip-content text-center'>" +
+              params.yValue.toFixed(0) +
+              " goals | <small>" +
+              params.xValue +
+              "</small></div>"
+            );
+          },
+        },
       },
     ],
     marker: {

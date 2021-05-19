@@ -44,6 +44,20 @@ export default function GoalsChart() {
         yKey: "goals",
         xKey: "player",
         showInLegend: false,
+        tooltip: {
+          renderer: function (params: any) {
+            return (
+              "<div class='ag-chart-tooltip-title text-center' style='background-color:" +
+              params.color +
+              "'>" +
+              params.xValue +
+              "</div><div class='ag-chart-tooltip-content text-center'> Scored <b>" +
+              params.yValue.toFixed(0) +
+              "</b> goal(s) " +
+              "</div>"
+            );
+          },
+        },
       },
     ],
     marker: {
