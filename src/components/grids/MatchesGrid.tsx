@@ -7,6 +7,11 @@ import matchesData from "../../data/mfc-matches.json";
 
 export default function MatchesGrid() {
   const rowData = matchesData;
+  const defaultColDef = {
+    width: 110,
+    sortable: true,
+    filter: true,
+  };
 
   return (
     <div className="col-lg-6 col-sm-12 mb-4">
@@ -16,12 +21,12 @@ export default function MatchesGrid() {
         </div>
         <div className="card-body">
           <div className="ag-theme-alpine matchesgrid">
-            <AgGridReact rowData={rowData}>
-              <AgGridColumn field="date" sortable={true} filter={true} />
-              <AgGridColumn field="venue" sortable={true} filter={true} />
-              <AgGridColumn field="opposition" sortable={true} filter={true} />
-              <AgGridColumn field="scored" sortable={true} filter={true} />
-              <AgGridColumn field="conceded" sortable={true} filter={true} />
+            <AgGridReact rowData={rowData} defaultColDef={defaultColDef}>
+              <AgGridColumn headerName="Date" field="date" />
+              <AgGridColumn field="venue" />
+              <AgGridColumn field="opposition" width="250" />
+              <AgGridColumn field="scored" />
+              <AgGridColumn field="conceded" width="130" />
             </AgGridReact>
           </div>
         </div>
