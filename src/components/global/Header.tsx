@@ -47,6 +47,11 @@ export default function Header(props: HeaderProps) {
               Charts
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/grids" activeClassName="active">
+              Grids
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
