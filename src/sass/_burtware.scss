@@ -1,3 +1,5 @@
+$claret:    #54192D;
+$amber:    #F8AF2F;
 /*    header  */
 .navbar {
     .bi {
@@ -33,6 +35,14 @@ main {
     .matchesgrid {
         display: block;
         height: 400px;
-        width: 100%;
+        width: 85%;
+
+        .ag-header {
+            background: $amber;
+        }
+        .ag-header-cell-label {
+            color: $claret;
+            font-weight: bold;
+        }
     }
 }
