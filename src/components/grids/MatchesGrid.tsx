@@ -8,9 +8,9 @@ import matchesData from "../../data/mfc-matches.json";
 export default function MatchesGrid() {
   const rowData = matchesData;
   const defaultColDef = {
-    width: 110,
     sortable: true,
     filter: true,
+    resizable: true,
   };
 
   return (
@@ -24,9 +24,9 @@ export default function MatchesGrid() {
             <AgGridReact rowData={rowData} defaultColDef={defaultColDef}>
               <AgGridColumn headerName="Date" field="date" />
               <AgGridColumn field="venue" />
-              <AgGridColumn field="opposition" width="250" />
+              <AgGridColumn field="opposition" />
               <AgGridColumn field="scored" />
-              <AgGridColumn field="conceded" width="130" />
+              <AgGridColumn field="conceded" />
             </AgGridReact>
           </div>
         </div>
