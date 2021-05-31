@@ -2,6 +2,9 @@
 
 This is the AWS hobby site for burtware aka I.Burrett.
 
+##  Motherwell F.C.
+As a Motherwell supporter I've decided to use their rather poor performance figures as the source of my "data" related charts and grid.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
