@@ -38,7 +38,7 @@
   "scripts": {
     "start": "react-scripts start",
     "browsersync": "browser-sync start --proxy 'http://localhost:3000' --files 'css/*.css'",
-    "dev": "run-s start browsersync",
+    "dev": "run-s browsersync",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
