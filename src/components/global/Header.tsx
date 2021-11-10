@@ -52,6 +52,11 @@ export default function Header(props: HeaderProps) {
               Grids
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/react" activeClassName="active">
+              React
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
