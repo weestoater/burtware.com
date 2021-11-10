@@ -12,6 +12,8 @@ export default function MatchesGrid() {
     filter: true,
     floatingFilter: true,
     resizable: true,
+    unSortIcon: true,
+    suppressMovable: true,
   };
 
   var filterParams = {
