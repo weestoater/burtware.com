@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+
 interface HeaderProps {
   site: string;
 }
@@ -7,7 +8,7 @@ interface HeaderProps {
 export default function Header(props: HeaderProps) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <i className="bi bi-code-slash text-warning mx-4" aria-label="code" />
+      <i className="bi bi-code-slash text-warning mx-4" role="img" title="code icon" />
       <NavLink className="navbar-brand" to="/">
         {props.site}
       </NavLink>
@@ -38,8 +39,8 @@ export default function Header(props: HeaderProps) {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about" activeClassName="active">
-              About
+            <NavLink className="nav-link" to="/a11y" activeClassName="active">
+              A11y
             </NavLink>
           </li>
           <li className="nav-item">
@@ -55,6 +56,11 @@ export default function Header(props: HeaderProps) {
           <li className="nav-item">
             <NavLink className="nav-link" to="/react" activeClassName="active">
               React
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/about" activeClassName="active">
+              About
             </NavLink>
           </li>
         </ul>

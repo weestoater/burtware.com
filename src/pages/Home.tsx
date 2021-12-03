@@ -7,6 +7,7 @@ import ApiProjectPost from "../components/home/ApiProject";
 export default function Home() {
   return (
     <div className="row">
+      <h1>Updates</h1>
       <ApiProjectPost />
       <ChartsPost />
       <Welcome />

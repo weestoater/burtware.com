@@ -8,6 +8,7 @@ import Charts from "./pages/Charts";
 import Grids from "./pages/Grids";
 import ReactPage from "./pages/React";
 import Weather from "./pages/Weather";
+import A11y from "./pages/A11y";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
               <Route path="/grids" component={Grids} />
               <Route path="/react" component={ReactPage} />
               <Route path="/weather" component={Weather} />
+              <Route path="/a11y" component={A11y} />
             </Switch>
           </div>
         </main>

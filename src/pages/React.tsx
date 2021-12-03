@@ -4,6 +4,7 @@ import ReactHooksPost from "../components/react/ReactHooksPost";
 export default function ReactPage() {
   return (
     <div className="row">
+      <h1>React</h1>
       <div className="col-sm-4">
         <div className="card">
           <div className="card-header">
