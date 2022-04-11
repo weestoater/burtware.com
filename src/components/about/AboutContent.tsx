@@ -12,7 +12,6 @@ export default function AboutContent() {
         <code>ReactJS</code> and <code>AWS</code>. I use both technologies in my
         day job and am aiming to get certified as an AWS Developer this year.
       </p>
-
       <p>
         I also want to use it to trial different charting libraries and
         implement the fabulous React Testing Library based on{" "}

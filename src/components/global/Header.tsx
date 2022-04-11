@@ -38,11 +38,6 @@ export default function Header(props: HeaderProps) {
               Home
             </NavLink>
           </li>
-          {/* <li className="nav-item">
-            <NavLink className="nav-link" to="/a11y" activeClassName="active">
-              A11y
-            </NavLink>
-          </li> */}
           <li className="nav-item">
             <NavLink className="nav-link" to="/charts" activeClassName="active">
               Charts
