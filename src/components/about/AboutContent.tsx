@@ -1,8 +1,6 @@
 import React from "react";
-import moment from "moment";
 
 export default function AboutContent() {
-  const thisYear = moment().format("YYYY");
   return (
     <div className="col-md-6 col-sm-12">
       <h1>
@@ -26,14 +24,7 @@ export default function AboutContent() {
         </a>{" "}
         course from <b>Kent C. Dodds</b>.
       </p>
-      <p className="footer">
-        &copy; {thisYear} &middot; Except where otherwise noted, content on this
-        site is licensed under a{" "}
-        <a href="http://creativecommons.org" target="_blank" rel="noreferrer">
-          Creative Commons Attribution 4.0 International license
-        </a>
-        .
-      </p>
+      
     </div>
   );
 }
