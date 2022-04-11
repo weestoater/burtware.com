@@ -1,76 +1,79 @@
-$claret:    #54192D;
-$amber:    #F8AF2F;
+$claret: #54192d;
+$amber: #f8af2f;
 /*    header  */
 .navbar {
-    .bi {
-        font-weight: bold;
-    }
+  .bi {
+    font-weight: bold;
+  }
 }
 .header-logo {
-    height: 2.5rem !important;
-    margin-left: 1.25rem !important;
-    margin-right: 1.25rem !important;
-    border: 3px solid #fff;
-    border-bottom: 5px solid #fff;
-    box-shadow: -2px 0 8px #111;
-    transform: rotate(-10deg);
+  height: 2.5rem !important;
+  margin-left: 1.25rem !important;
+  margin-right: 1.25rem !important;
+  border: 3px solid #fff;
+  border-bottom: 5px solid #fff;
+  box-shadow: -2px 0 8px #111;
+  transform: rotate(-10deg);
 }
 
 #topNavBar {
-    a.nav-link {
-        padding: .5rem 1rem;
-    }
+  a.nav-link {
+    padding: 0.5rem 1rem;
+  }
 }
 
 main {
-    p.footer {
-        display: block;
-        width: 95%;
-        position: absolute;
-        bottom: 0;
-        border-top: 1px dashed #444;
-        line-height: 2rem;
-    }
+  .matchesgrid {
+    display: block;
+    height: 400px;
+    width: 100%;
 
-    .matchesgrid {
-        display: block;
-        height: 400px;
-        width: 100%;
-
-        .ag-header {
-            background: $amber;
-        }
-        .ag-header-cell-label {
-            color: $claret;
-            font-weight: bold;
-        }
+    .ag-header {
+      background: $amber;
     }
-
-    .code-sample {
-        display: block;
-        width: 95%;
-        margin-left: 2.5%;
-        margin-bottom: 1rem !important;
-        background: #313131;
-        color: #EBD280;
-        padding: .75rem 1rem .5rem;
-        font-size: .9rem;
-        font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
-        border-radius: .5rem;
-        box-shadow: 1px 2px 5px #444;
+    .ag-header-cell-label {
+      color: $claret;
+      font-weight: bold;
     }
+  }
+
+  .code-sample {
+    display: block;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 1rem !important;
+    background: #313131;
+    color: #ebd280;
+    padding: 0.75rem 1rem 0.5rem;
+    font-size: 0.9rem;
+    font-family: "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 5px #444;
+  }
 }
 
+footer.footer {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem 0.5rem 0;
+  border-top: 1px dashed #444;
+  line-height: 2rem;
+  text-align: center;
+  background: #ccc;
+}
 /*  bootstrap icons */
 .bi {
-    transition: transform .2s;
-    font-size: 1.2rem;
+  transition: transform 0.2s;
+  font-size: 1.2rem;
 
-    &:hover {
-        transform: scale(1.5);        
-        cursor: pointer;
-    }
+  &:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
 }
 .card-header .bi {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }

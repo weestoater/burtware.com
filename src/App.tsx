@@ -30,15 +30,10 @@ export default function App() {
               <Route path="/weather" component={Weather} />
             </Switch>
           </div>
-          <p className="footer">
-        &copy; {thisYear} &middot; Except where otherwise noted, content on this
-        site is licensed under a{" "}
-        <a href="http://creativecommons.org" target="_blank" rel="noreferrer">
-          Creative Commons Attribution 4.0 International license
-        </a>
-        .
-      </p>
-        </main>
+        </main>        
+        <footer className="footer">
+          <p>&copy; {thisYear} &middot; Except where otherwise noted, content on this site is licensed under  <a href="http://creativecommons.org" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International license</a>.</p>
+        </footer>
       </div>
     </Router>
   );
