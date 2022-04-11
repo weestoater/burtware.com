@@ -24,8 +24,7 @@ export default function AboutContent() {
           testing javascript
         </a>{" "}
         course from <b>Kent C. Dodds</b>.
-      </p>
-     
+      </p>     
     </div>
   );
 }
