@@ -43,16 +43,6 @@ export default function Header(props: HeaderProps) {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/charts" activeClassName="active">
-              Charts
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/grids" activeClassName="active">
-              Grids
-            </NavLink>
-          </li>
-          <li className="nav-item">
             <NavLink className="nav-link" to="/react" activeClassName="active">
               React
             </NavLink>
