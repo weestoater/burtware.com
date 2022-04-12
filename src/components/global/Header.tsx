@@ -42,6 +42,11 @@ export default function Header(props: HeaderProps) {
               About
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/react" activeClassName="active">
+              ReactJS
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
