@@ -6,6 +6,7 @@ import moment from "moment";
 import Header from "./components/global/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import ReactPage from "./pages/React";
 
 export default function App() {
   
@@ -20,6 +21,7 @@ export default function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
+              <Route path="/react" component={ReactPage} />
             </Switch>
           </div>
         </main>        

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ReactHooksPost() {
   return (
-    <div className="col-sm-4">
+    <div className="col-sm-6">
       <div className="card">
         <div className="card-header">
           <i className="bi bi-code-square" />
