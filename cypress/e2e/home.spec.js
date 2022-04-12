@@ -12,11 +12,11 @@ describe("burtware.com: test homepage", () => {
     cy.visit("/").get(":nth-child(2) > .nav-link").click().url("/about");
   });
 
-  it("- it has a link to Charts page", () => {
-    cy.visit("/").get(".nav-link").should("contain", "Charts");
+  it("- it has a link to A11y page", () => {
+    cy.visit("/").get(".nav-link").should("contain", "A11y");
   });
 
-  it("-- link takes you to the Charts page", () => {
-    cy.visit("/").get(":nth-child(3) > .nav-link").click().url("/charts");
+  it("-- link takes you to the A11y page", () => {
+    cy.visit("/").get(":nth-child(1) > .nav-link").click().url("/a11y");
   });
 });
