@@ -12,9 +12,10 @@ export default function App() {
   
   return (
     <Router>
+      <a className="visually-hidden-focusable" href="#main">Skip to main content</a>
       <Header site="burtware.com" />
       <div className="container-fluid">
-        <main>
+        <main id="main">
           <div className="container-fluid mt-4 mb-4">
             <Switch>
               <Route exact path="/" component={Home} />

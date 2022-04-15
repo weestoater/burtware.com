@@ -1,8 +1,23 @@
 $claret: #54192d;
 $amber: #f8af2f;
-
+/*    skip-link   */
+.visually-hidden-focusable {
+  &:focus {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 100;
+    background: black;
+    color: white;
+    outline: 4px solid white;
+    border-radius: 5px;
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+}
 /*    header  */
 .navbar {
+  position: relative;
   .bi {
     font-weight: bold;
   }
@@ -25,6 +40,19 @@ $amber: #f8af2f;
 
 main {
   min-height: calc(95vh - 4.5rem) !important;
+
+  a {
+    color: $claret;
+    text-decoration: underline;
+    padding: 0.25rem 0.5rem;
+
+    &:focus {
+      background: $amber;
+      text-decoration: none;
+      outline: 3px solid $claret;
+      border-radius: 3px;
+    }
+  }
 
   .matchesgrid {
     display: block;
