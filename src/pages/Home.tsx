@@ -1,13 +1,13 @@
 import React from "react";
 
 import Welcome from "../components/home/WelcomePost";
-import ApiProjectPost from "../components/home/ApiProject";
+import AwsAmplifyPost from "../components/home/AwsAmplifyPost";
 
 export default function Home() {
   return (
     <div className="row">
-      <ApiProjectPost />
       <Welcome />
+      <AwsAmplifyPost />
     </div>
   );
 }

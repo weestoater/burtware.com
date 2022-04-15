@@ -10,7 +10,7 @@ export default function Welcome() {
         <div className="card-body">
           <p>This is my little play pen for ReactJs and AWS hobby projects.</p>
           <p>
-            I'm hoping to add some experiments with ReactJs and dynamic charting soon.
+            I'm hoping to add some experiments with ReactJs and other stuff soon.
           </p>
         </div>
       </div>

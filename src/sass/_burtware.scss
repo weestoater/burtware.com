@@ -1,10 +1,38 @@
 $claret: #54192d;
 $amber: #f8af2f;
 
+/*    skip-link   */
+.visually-hidden-focusable {
+  &:focus {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 100;
+    background: black;
+    color: white;
+    outline: 4px solid white;
+    border-radius: 5px;
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+}
 /*    header  */
 .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
   .bi {
     font-weight: bold;
+  }
+  .navbar-brand {
+    display: inline-block;
+    margin: 0 1rem 0 0.5rem;
+  }
+  .navbar-toggler {
+    margin-right: 5px !important;
   }
 }
 .header-logo {
@@ -19,12 +47,26 @@ $amber: #f8af2f;
 
 #topNavBar {
   a.nav-link {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
   }
 }
 
 main {
+  margin-top: 4.5rem;
   min-height: calc(95vh - 4.5rem) !important;
+
+  a {
+    color: $claret;
+    text-decoration: underline;
+    padding: 0.25rem 0.5rem;
+
+    &:focus {
+      background: $amber;
+      text-decoration: none;
+      outline: 3px solid $claret;
+      border-radius: 3px;
+    }
+  }
 
   .matchesgrid {
     display: block;
