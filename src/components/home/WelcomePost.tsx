@@ -11,7 +11,7 @@ export default function Welcome() {
           <p>This is my little play pen for ReactJs and AWS hobby projects.</p>
           <p>
             I'm hoping to add some experiments with ReactJs and other stuff soon.
-          </p>
+          </p>But like all good 'blog' type projects, this is very much a side-of-desk effort from home.</p>
         </div>
       </div>
     </div>
