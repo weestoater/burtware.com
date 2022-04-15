@@ -1,5 +1,6 @@
 $claret: #54192d;
 $amber: #f8af2f;
+
 /*    skip-link   */
 .visually-hidden-focusable {
   &:focus {
@@ -17,9 +18,21 @@ $amber: #f8af2f;
 }
 /*    header  */
 .navbar {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
   .bi {
     font-weight: bold;
+  }
+  .navbar-brand {
+    display: inline-block;
+    margin: 0 1rem 0 0.5rem;
+  }
+  .navbar-toggler {
+    margin-right: 5px !important;
   }
 }
 .header-logo {
@@ -34,11 +47,12 @@ $amber: #f8af2f;
 
 #topNavBar {
   a.nav-link {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
   }
 }
 
 main {
+  margin-top: 4.5rem;
   min-height: calc(95vh - 4.5rem) !important;
 
   a {
