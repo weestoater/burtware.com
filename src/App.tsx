@@ -18,7 +18,7 @@ export default function App() {
       <Header site="burtware.com" />
       <div className="container-fluid">
         <main>
-          <div className="container-fluid mt-4">
+          <div className="container-fluid mt-4 mb-4">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/a11y" component={A11y} />
@@ -26,11 +26,11 @@ export default function App() {
               <Route path="/react" component={ReactPage} />
             </Switch>
           </div>
-        </main>        
-        <footer className="footer">
+        </main>                
+      </div>
+      <footer className="footer">
           <p>&copy; {thisYear} &middot; Except where otherwise noted, content on this site is licensed under  <a href="http://creativecommons.org" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International license</a>.</p>
         </footer>
-      </div>
     </Router>
   );
 }
