@@ -5,7 +5,7 @@ import App from "./App";
 test("renders burtware.com", () => {
   render(<App />);
   const header = screen.getByText(/burtware.com/i);
-  const footer = screen.getByText(/except where otherwise noted/i);
+  const footer = screen.getByText(/content on this site/i);
   expect(header).toBeInTheDocument();
   expect(footer).toBeInTheDocument();
 });
