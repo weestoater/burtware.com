@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import moment from "moment";
 
 import Header from "./components/global/Header";
+import Footer from "./components/global/Footer";
 import Home from "./pages/Home";
 import A11y from "./pages/A11y";
 import About from "./pages/About";
@@ -11,7 +11,7 @@ import ReactPage from "./pages/React";
 
 export default function App() {
   
-  const thisYear = moment().format("YYYY");
+  
   
   return (
     <Router>
@@ -28,9 +28,7 @@ export default function App() {
           </div>
         </main>                
       </div>
-      <footer className="footer">
-          <p>&copy; {thisYear} &middot; Except where otherwise noted, content on this site is licensed under  <a href="http://creativecommons.org" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International license</a>.</p>
-        </footer>
+      <Footer />
     </Router>
   );
 }
