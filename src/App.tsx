@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
 import Header from "./components/global/Header";
 import Footer from "./components/global/Footer";
 import Home from "./pages/Home";
@@ -10,8 +9,6 @@ import About from "./pages/About";
 import ReactPage from "./pages/React";
 
 export default function App() {
-  
-  
   
   return (
     <Router>
