@@ -68,6 +68,11 @@ main {
     }
   }
 
+  .mfc-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
   .matchesgrid {
     display: block;
     height: 400px;
@@ -94,6 +99,51 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
     border-radius: 0.5rem;
     box-shadow: 1px 2px 5px #444;
+  }
+
+  .goals-list {
+    li {
+      border-radius: 10px !important;
+      margin-bottom: 5px;
+      box-shadow: 0 0 4px #ccc;
+
+      .badge {
+        font-weight: normal;
+        font-size: 1rem;
+        float: right;
+      }
+    }
+    li:nth-child(odd) {
+      border: 1px solid $claret;
+      .badge {
+        background: $claret !important;
+      }
+    }
+    li:nth-child(even) {
+      border: 1px solid $amber;
+      .badge {
+        background: $amber !important;
+      }
+    }
+  }
+
+  .matchcards {
+    .card {
+      margin-bottom: 1rem;
+      .card-body {
+        text-align: center;
+
+        .homescore,
+        .awayscore {
+          font-size: 3rem;
+        }
+
+        .mfc {
+          font-weight: bold;
+          color: $claret;
+        }
+      }
+    }
   }
 }
 
