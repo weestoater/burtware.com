@@ -139,8 +139,14 @@ main {
         }
 
         .mfc {
+          display: inline-block;
           font-weight: bold;
           color: $claret;
+          background: $amber;
+          border: 1px solid #222;
+          min-width: 3.5rem;
+          width: auto;
+          padding: 0.25rem 0.5rem;
         }
       }
     }
