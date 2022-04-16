@@ -4,11 +4,11 @@ import ReactHooksPost from "../components/react/ReactHooksPost";
 export default function ReactPage() {
   return (
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-sm-3">
         <div className="card">
           <div className="card-header">
-            <i className="bi bi-code-square" />
-            <span className="pl-4">react: my experiences</span>
+            <i className="bi bi-filetype-jsx" />
+            <span className="pl-4">my experiences</span>
           </div>
           <div className="card-body">
             <p>

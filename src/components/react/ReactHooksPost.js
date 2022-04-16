@@ -2,11 +2,11 @@ import React from "react";
 
 export default function ReactHooksPost() {
   return (
-    <div className="col-sm-6">
+    <div className="col-sm-3">
       <div className="card">
         <div className="card-header">
-          <i className="bi bi-code-square" />
-          <span className="pl-4">react: hooks</span>
+          <i className="bi bi-filetype-jsx" />
+          <span className="pl-4">hooks</span>
         </div>
         <div className="card-body">
           <p>

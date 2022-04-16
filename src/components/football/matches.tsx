@@ -52,6 +52,7 @@ export default function Matches() {
             <hr />
             {matcheslist}
             </div>
+            <a href="#top"><i className="bi bi-arrow-up"></i> Back to top</a>
         </div>
     );
 }
