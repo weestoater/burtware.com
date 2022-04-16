@@ -1,50 +1,130 @@
 [
     {
-        "player": "Devante Cole",
-        "goals": 12
+        "season": "2021-22",
+        "details": [
+            {
+                "player": "Kevin Van Veen",
+                "goals": 10
+            },
+            {
+                "player": "Ricki Lamie",
+                "goals": 3
+            },
+            {
+                "player": "Connor Shields",
+                "goals": 3
+            },        
+            {
+                "player": "Kaiyne Woolery",
+                "goals": 2
+            },
+            {
+                "player": "Bevis Mugabi",
+                "goals": 2
+            },
+            {
+                "player": "Joe Efford",
+                "goals": 2
+            },
+            {
+                "player": "Jordan Roberts",
+                "goals": 2
+            },
+            {
+                "player": "Juhani Ojala",
+                "goals": 1
+            },
+            {
+                "player": "Liam Grimshaw",
+                "goals": 1
+            },
+            {
+                "player": "Barry Maguire",
+                "goals": 1
+            },
+            
+            {
+                "player": "Mark O'Hara",
+                "goals": 1
+            },            
+            {
+                "player": "Callum Slattery",
+                "goals": 2
+            },
+            {
+                "player": "Dean Cornelius",
+                "goals": 2
+            },
+            {
+                "player": "Liam Donnelly",
+                "goals": 1
+            },
+            {
+                "player": "Ross Tierney",
+                "goals": 1
+            },
+            {
+                "player": "Sean Goss",
+                "goals": 1
+            },
+            {
+                "player": "Justin Amaluzor",
+                "goals": 1
+            }
+        ]
     },
     {
-        "player": "Tony Watt",
-        "goals": 6
-    },
-    {
-        "player": "Christopher Long",
-        "goals": 6
-    },
-    {
-        "player": "Alan Campbell",
-        "goals": 5
-    },
-    {
-        "player": "Mark O'Hara",
-        "goals": 4
-    },
-    {
-        "player": "Jordan Robers",
-        "goals": 3
-    },
-    {
-        "player": "Stephen O'Donnell",
-        "goals": 3
-    },
-    {
-        "player": "Bevis Mugabi",
-        "goals": 2
-    },
-    {
-        "player": "Liam Polwarth",
-        "goals": 1
-    },
-    {
-        "player": "Barry Maguire",
-        "goals": 1
-    },
-    {
-        "player": "Declan Gallagher",
-        "goals": 1
-    },
-    {
-        "player": "Sam Foley",
-        "goals": 1
+        "season": "2020-21",
+        "details": [
+            {
+                "player": "Devante Cole",
+                "goals": 12
+            },
+            {
+                "player": "Tony Watt",
+                "goals": 6
+            },
+            {
+                "player": "Christopher Long",
+                "goals": 6
+            },
+            {
+                "player": "Alan Campbell",
+                "goals": 5
+            },
+            {
+                "player": "Mark O'Hara",
+                "goals": 4
+            },
+            {
+                "player": "Jordan Robers",
+                "goals": 3
+            },
+            {
+                "player": "Stephen O'Donnell",
+                "goals": 3
+            },
+            {
+                "player": "Bevis Mugabi",
+                "goals": 2
+            },
+            {
+                "player": "Liam Polwarth",
+                "goals": 1
+            },
+            {
+                "player": "Barry Maguire",
+                "goals": 1
+            },
+            {
+                "player": "Declan Gallagher",
+                "goals": 1
+            },
+            {
+                "player": "Sam Foley",
+                "goals": 1
+            }
+        ]
+    
     }
 ]

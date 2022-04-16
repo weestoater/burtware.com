@@ -6,6 +6,7 @@ import Footer from "./components/global/Footer";
 import Home from "./pages/Home";
 import A11y from "./pages/A11y";
 import About from "./pages/About";
+import FootballPage from "./pages/Football";
 import ReactPage from "./pages/React";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
               <Route exact path="/" component={Home} />
               <Route path="/a11y" component={A11y} />
               <Route path="/about" component={About} />
+              <Route path="/football" component={FootballPage} />
               <Route path="/react" component={ReactPage} />
             </Switch>
           </div>
