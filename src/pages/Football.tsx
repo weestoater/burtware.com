@@ -8,8 +8,10 @@ export default function FootballPage() {
     return (
         <>
             <Intro />
+            <div className="row">
             <Goals />
             <Matches />
+            </div>
         </>
     );
 }

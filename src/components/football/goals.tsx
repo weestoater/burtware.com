@@ -2,22 +2,25 @@ import React from 'react';
 import goalsData  from "../../data/mfc-goals.json";
 
 export default function Goals() {
-    const data = goalsData;
-    const seasons = data.length;
-    const seasonslist = data.map((item, key) => 
-        <div className="col-md-4 col-sm-6 mb-2" key={key}>
-            <h2 className="mt-2">Season {item.season}</h2>
-            <p>Goal scorers:-</p>
-            <ul className="list-group">
+    const seasonslist = goalsData.map((item, key) => 
+        <div className="col-md-6 col-sm-6 mb-2" key={key}>
+            <h3>{item.season}</h3>
+            <ul className="list-group goals-list">
                 {item.details.map((gs, index) =>
-                    <li key={index}  className="list-group-item">{gs.player}  <span className="float-end badge bg-primary">{gs.goals}</span></li>
+                    <li key={index}  className="list-group-item">
+                        <small>[{index+1}]</small>  &middot; {gs.player}  <span className="badge">{gs.goals}</span></li>
                 )}
             </ul>
         </div>
-    )
+    );
+
     return (
-        <div className="row">
-        {seasonslist}
+        <div className="col-md-6">
+            <div className="row">
+                <h2>Goal scorers</h2>
+                <hr />
+                {seasonslist}
+            </div>
         </div>
     );
 }
