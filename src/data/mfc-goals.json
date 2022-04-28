@@ -13,6 +13,18 @@
             {
                 "player": "Connor Shields",
                 "goals": 3
+            },
+            {
+                "player": "Ross Tierney",
+                "goals": 2
+            },            
+            {
+                "player": "Callum Slattery",
+                "goals": 2
+            },
+            {
+                "player": "Dean Cornelius",
+                "goals": 2
             },        
             {
                 "player": "Kaiyne Woolery",
@@ -46,21 +58,9 @@
             {
                 "player": "Mark O'Hara",
                 "goals": 1
-            },            
-            {
-                "player": "Callum Slattery",
-                "goals": 2
-            },
-            {
-                "player": "Dean Cornelius",
-                "goals": 2
             },
             {
                 "player": "Liam Donnelly",
-                "goals": 1
-            },
-            {
-                "player": "Ross Tierney",
                 "goals": 1
             },
             {
