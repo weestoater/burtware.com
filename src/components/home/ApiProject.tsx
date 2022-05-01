@@ -3,7 +3,7 @@ import React from "react";
 export default function ApiProjectPost() {
   return (
     <div className="col-lg-3 col-md-6 col-sm-12">
-      <div className="card mb-3">
+      <div className="card mb-4">
         <div className="card-header">
           <i className="bi bi-truck" />
           <span className="pl-4">api-project</span>
