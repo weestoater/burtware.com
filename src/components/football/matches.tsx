@@ -46,7 +46,7 @@ export default function Matches() {
     );
     return (
         
-        <div className="col-md-6">
+        <div className="col-md-6 mb-4">
             <div className="row">
             <h2>Matches</h2>
             <hr />
