@@ -23,6 +23,9 @@ $amber: #f8af2f;
   left: 0;
   width: 100%;
   z-index: 10;
+  background: transparent !important;
+  color: $claret !important;
+  border-bottom: 1px solid $claret;
 
   .bi {
     font-weight: bold;
@@ -48,12 +51,24 @@ $amber: #f8af2f;
 #topNavBar {
   a.nav-link {
     padding: 0.5rem;
+    color: $claret;
+
+    &:hover,
+    &:focus {
+      color: black;
+      background: $amber;
+      border-radius: 5px;
+    }
+    &.active {
+      border: 1px solid $claret;
+      border-radius: 5px;
+    }
   }
 }
 
 main {
   margin-top: 4.5rem;
-  min-height: calc(95vh - 4.5rem) !important;
+  min-height: calc(100vh - 125px) !important;
 
   a {
     color: $claret;
@@ -158,7 +173,7 @@ footer.footer {
   width: 100%;
   margin: 0;
   padding: 0.5rem;
-  border-top: 5px solid #f90;
+  border-top: 5px solid $amber;
   line-height: normal;
   text-align: center;
   background: #444;

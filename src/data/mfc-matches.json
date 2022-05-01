@@ -241,8 +241,8 @@
                 "venue": "Home"
             },
             {
-                "scored": "N/A",
-                "conceded": "N/A",
+                "scored": "0",
+                "conceded": "1",
                 "date": "30/04/22",
                 "opposition": "Dundee United",
                 "venue": "Away"

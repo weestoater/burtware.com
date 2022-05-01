@@ -6,8 +6,8 @@ interface HeaderProps {
 
 export default function Header(props: HeaderProps) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="top">
-      <i className="bi bi-code-slash text-warning mx-2" aria-label="code" />
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="top">
+      <i className="bi bi-journal-code mx-2" aria-label="code" />
       <NavLink className="navbar-brand" to="/">
         {props.site}
       </NavLink>
