@@ -60,13 +60,14 @@ body {
 
     &:hover,
     &:focus {
-      color: black;
+      color: $claret;
       background: $amber;
       border-radius: 5px;
     }
     &.active {
       border: 1px solid $claret;
       border-radius: 5px;
+      background: whitesmoke;
     }
   }
 }
