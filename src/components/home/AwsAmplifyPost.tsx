@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AwsAmplifyPost() {
   return (
-    <div className="col-lg-3 col-md-6 col-sm-12">
+    <div className="col-lg-3 col-md-6">
       <div className="card mb-4">
         <div className="card-header">
           <i className="bi bi-cloud" />
