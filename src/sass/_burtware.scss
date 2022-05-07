@@ -1,6 +1,10 @@
 $claret: #54192d;
 $amber: #f8af2f;
 
+body {
+  color: #222;
+  background: #f9f9f9;
+}
 /*    skip-link   */
 .visually-hidden-focusable {
   &:focus {
@@ -16,6 +20,7 @@ $amber: #f8af2f;
     padding: 0.5rem 1rem;
   }
 }
+
 /*    header  */
 .navbar {
   position: absolute;
@@ -23,7 +28,7 @@ $amber: #f8af2f;
   left: 0;
   width: 100%;
   z-index: 10;
-  background: white !important;
+  background: lighten($amber, 5%) !important;
   color: $claret !important;
   border-bottom: 1px solid $claret;
 
@@ -69,6 +74,11 @@ $amber: #f8af2f;
 main {
   margin-top: 4.5rem;
   min-height: calc(100vh - 125px) !important;
+
+  .card {
+    box-shadow: 0 0 5px #bababa;
+    box-radius: 0 !important;
+  }
 
   a {
     color: $claret;
