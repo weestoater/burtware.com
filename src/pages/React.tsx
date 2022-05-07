@@ -4,7 +4,7 @@ import ReactHooksPost from "../components/react/ReactHooksPost";
 export default function ReactPage() {
   return (
     <div className="row">
-      <div className="col-sm-3 mb-4">
+      <div className="col-lg-3 col-md-6 mb-4">
         <div className="card">
           <div className="card-header">
             <i className="bi bi-filetype-jsx" />

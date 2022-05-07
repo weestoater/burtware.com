@@ -6,7 +6,7 @@ exports[`Testing React page can render ReactPage 1`] = `
     class="row"
   >
     <div
-      class="col-sm-4"
+      class="col-sm-3"
     >
       <div
         class="card"
@@ -15,12 +15,12 @@ exports[`Testing React page can render ReactPage 1`] = `
           class="card-header"
         >
           <i
-            class="bi bi-code-square"
+            class="bi bi-filetype-jsx"
           />
           <span
             class="pl-4"
           >
-            react: my experiences
+            my experiences
           </span>
         </div>
         <div
@@ -46,7 +46,7 @@ exports[`Testing React page can render ReactPage 1`] = `
       </div>
     </div>
     <div
-      class="col-sm-6"
+      class="col-sm-3"
     >
       <div
         class="card"
@@ -55,12 +55,12 @@ exports[`Testing React page can render ReactPage 1`] = `
           class="card-header"
         >
           <i
-            class="bi bi-code-square"
+            class="bi bi-filetype-jsx"
           />
           <span
             class="pl-4"
           >
-            react: hooks
+            hooks
           </span>
         </div>
         <div
