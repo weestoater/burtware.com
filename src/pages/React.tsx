@@ -1,9 +1,12 @@
 import React from "react";
 import ReactHooksPost from "../components/react/ReactHooksPost";
+import RandomUsersPost from "../components/react/RandomUserPost";
 
 export default function ReactPage() {
   return (
     <div className="row">
+      <RandomUsersPost />
+      <ReactHooksPost />
       <div className="col-lg-3 col-md-6 mb-4">
         <div className="card">
           <div className="card-header">
@@ -29,7 +32,6 @@ export default function ReactPage() {
           </div>
         </div>
       </div>
-      <ReactHooksPost />
     </div>
   );
 }
