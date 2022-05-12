@@ -129,7 +129,7 @@ main {
 
   .goals-list {
     li {
-      border-radius: 10px !important;
+      border-radius: 8px !important;
       margin-bottom: 5px;
       box-shadow: 0 0 4px #ccc;
 
@@ -170,6 +170,8 @@ main {
           color: $claret;
           background: $amber;
           border: 1px solid #222;
+          border-radius: 8px !important;
+          box-shadow: 0 2px 4px #888;
           min-width: 3.5rem;
           width: auto;
           padding: 0.25rem 0.5rem;
