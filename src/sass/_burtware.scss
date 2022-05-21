@@ -3,7 +3,7 @@ $amber: #f8af2f;
 
 body {
   color: #222;
-  background: #f9f9f9;
+  background: #eee;
 }
 /*    skip-link   */
 .visually-hidden-focusable {
@@ -62,7 +62,6 @@ body {
     &:focus {
       color: $claret;
       background: $amber;
-      border-radius: 5px;
     }
     &.active {
       background: whitesmoke;
@@ -71,12 +70,15 @@ body {
 }
 
 main {
-  margin-top: 4.5rem;
+  margin-top: 5rem !important;
   min-height: calc(100vh - 125px) !important;
 
   .card {
     box-shadow: 0 0 5px #bababa;
-    box-radius: 0 !important;
+
+    .card-body {
+      background: white;
+    }
   }
 
   a {
@@ -85,7 +87,7 @@ main {
     padding: 0.25rem 0.5rem;
 
     &:focus {
-      background: $amber;
+      background: white;
       text-decoration: none;
       outline: 3px solid $claret;
       border-radius: 3px;
@@ -242,9 +244,7 @@ main {
 
       &:hover {
         border: 1px dotted $amber;
-        border-radius: .5rem;
         box-shadow: 0 0 .25rem $amber;
-        cursor: pointer;
       }
 
       .date {
