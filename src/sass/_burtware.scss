@@ -37,7 +37,7 @@ body {
   }
   .navbar-brand {
     display: inline-block;
-    margin: 0 1rem 0 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
   }
   .navbar-toggler {
     margin-right: 5px !important;
@@ -54,6 +54,7 @@ body {
 }
 
 #topNavBar {
+  min-height: 4rem;
   a.nav-link {
     padding: 0.5rem;
     color: $claret;
