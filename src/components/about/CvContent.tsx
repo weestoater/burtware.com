@@ -6,8 +6,8 @@ export default function CvContent() {
     const jobs = cvData.length;
 
     const jobsList = cvData.map((job, key) => 
-        <li key={key}>
-            <div className="date">{key} {job.startDate} <small className="bi bi-chevron-right text-info"></small> {job.endDate}</div>
+        <li key={`jobNo${key}`}>
+            <div className="date">{job.startDate} <small className="bi bi-chevron-right text-info"></small> {job.endDate}</div>
             <div className="role">{job.jobTitle}</div>
             <div className="company">{job.company}</div>
         </li>

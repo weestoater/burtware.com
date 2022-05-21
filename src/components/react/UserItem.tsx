@@ -6,7 +6,7 @@ function UserItem(props: any) {
 
   return (
     <>
-      <div className="user col-sm-12 mb-3" key={user.id}>
+      <div className="user col-sm-12 mb-3">
         <img src={user.item.picture.large} alt="" className="picture" />
         <p className="name">
           <span className="badge rounded-pill bg-info me-2">{user.item.nat}</span>{" "}

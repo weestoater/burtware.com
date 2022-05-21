@@ -21,7 +21,7 @@ export default function RandomUsersPost() {
                 </div>
                 <div className="card-body users">
                 {users.results ? (
-                    users.results.map((user, key) => <UserItem id={key} item={user} /> )
+                    users.results.map((user, key) => <UserItem key={key} item={user} /> )
                 ) : ( 
                 <Spinner /> 
                 )}
