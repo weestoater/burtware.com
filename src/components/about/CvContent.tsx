@@ -18,7 +18,7 @@ export default function CvContent() {
         <div className="col-lg-3 col-md-6">
             <div className="card mb-4">
                 <div className="card-header">
-                <i className="bi bi-balloon-heart" /> burtware CV ({ jobs })
+                <i className="bi bi-balloon-heart" /> burtware CV
                 </div>
                 <div className="card-body">
                     <div className="cvtimeline">
