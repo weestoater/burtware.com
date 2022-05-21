@@ -6,7 +6,7 @@ exports[`Testing React page can render ReactPage 1`] = `
     class="row"
   >
     <div
-      class="col-sm-3"
+      class="col-lg-3 col-md-6 mb-4"
     >
       <div
         class="card"
@@ -20,33 +20,35 @@ exports[`Testing React page can render ReactPage 1`] = `
           <span
             class="pl-4"
           >
-            my experiences
+            Random Users API
           </span>
         </div>
         <div
-          class="card-body"
+          class="card-body users"
         >
-          <p>
-            There are as many ways to do Single Page Applications (SPAs) as there are developers with opinions. Within my work we have many instances of AngularJS, Angular (4,5,6,7,9,11,12) and ReactJS.
-          </p>
-          <p>
-            My experience with ReactJS began as pretty limited, but with a strong following wind, a few cups of coffee and a Pluralsight subscription – I resolved that in no small measure.
-          </p>
-          <p>
-            Before moving recently to pure UX team, I worked on a growing React platform which included multiple chart and grid offerings.
-          </p>
-          <p>
-            I am now trying to get my head around the worlds of 
-            <code>
-              typescript
-            </code>
-            ; micro-services and AWS with React.
-          </p>
+          <div
+            class="row"
+          >
+            <div
+              class="d-flex justify-content-center"
+            >
+              <div
+                class="spinner-border"
+                role="status"
+              >
+                <span
+                  class="visually-hidden"
+                >
+                  Loading...
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div
-      class="col-sm-3"
+      class="col-lg-3 col-md-6 mb-4"
     >
       <div
         class="card"
@@ -104,6 +106,46 @@ exports[`Testing React page can render ReactPage 1`] = `
           </div>
           <p>
             I personally find this a lot cleaner and nicer to work with. A plus side is also the test-ability of it, which matters to me as it’s a key part of my employers ethos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-lg-3 col-md-6 mb-4"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="card-header"
+        >
+          <i
+            class="bi bi-filetype-jsx"
+          />
+          <span
+            class="pl-4"
+          >
+            my experiences
+          </span>
+        </div>
+        <div
+          class="card-body"
+        >
+          <p>
+            There are as many ways to do Single Page Applications (SPAs) as there are developers with opinions. Within my work we have many instances of AngularJS, Angular (4,5,6,7,9,11,12) and ReactJS.
+          </p>
+          <p>
+            My experience with ReactJS began as pretty limited, but with a strong following wind, a few cups of coffee and a Pluralsight subscription – I resolved that in no small measure.
+          </p>
+          <p>
+            Before moving recently to pure UX team, I worked on a growing React platform which included multiple chart and grid offerings.
+          </p>
+          <p>
+            I am now trying to get my head around the worlds of 
+            <code>
+              typescript
+            </code>
+            ; micro-services and AWS with React.
           </p>
         </div>
       </div>
