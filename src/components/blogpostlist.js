@@ -13,13 +13,13 @@ const PostList = () => {
         {postlist.length && 
             postlist.map((post, i) => {
                 return (                      
-                    <div className="col-lg-3 col-md-6">
-                        <div className="card mb-4" key={i} >
+                    <div className="col-lg-3 col-md-6" key={i}>
+                        <div className="card mb-4">
                             <div className="card-header">
                                 <i className={`bi ${post.icon}`} /> {post.title}
                             </div>
                             <div className="card-body">
-                                <Markdown children={excerptList[i]} escapeHtml={false} />
+                                <Markdown children={excerptList[i]}  />
                                 <br />
                                 <small><Link className="post-link" to={`/blog/${post.id}`}>Read the full '{post.title}' post</Link></small>
                             </div>

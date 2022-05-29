@@ -5,6 +5,9 @@ import RandomUsersPost from "../components/react/RandomUserPost";
 export default function ReactPage() {
   return (
     <div className="row">
+        <div className="col-sm-12">
+            <h1 className="visually-hidden">React stuff</h1>
+        </div>
       <RandomUsersPost />
       <ReactHooksPost />
       <div className="col-lg-3 col-md-6 mb-4">
