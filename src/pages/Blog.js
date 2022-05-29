@@ -1,16 +1,26 @@
 import React from "react"
 import { Link }  from "react-router-dom"
 import Markdown from "react-markdown"
-import postlist from "../posts.json"
+import bloglist from "../posts.json"
+
+import PostList from "../components/blogpostlist";
 
 const Blog = (props) => {
     const validId = parseInt(props.match.params.id)
-    if (!validId) {
-        return <h1>No page to display</h1>
+    let noPostSelected;
+    const fetchedPost = {};
+
+    if (!validId || validId == NaN) {
+        return (
+        <div className="row">
+            <div className="col-sm-12">
+                <h1 className="visually-hidden">Blog</h1>
+            </div>
+            <PostList />
+        </div>);
     }
-    const fetchedPost = {}
-    let postExists = false
-    postlist.forEach((post, i) => {
+
+    bloglist.forEach((post, i) => {
         if (validId === post.id) {
             fetchedPost.title = post.title ? post.title : "No title given"
             fetchedPost.date = post.date ? post.date : "No date given"
@@ -20,9 +30,7 @@ const Blog = (props) => {
             postExists = true
         }
     })
-    if (postExists === false) {
-        return <h1>No page to display</h1>
-    }
+
     return (
         <div className="row">
             <div className="col-lg-6">
@@ -32,11 +40,10 @@ const Blog = (props) => {
                     </div>
                     <div className="card-body">
                         <small className="date">Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                        <Markdown children={fetchedPost.content} escapeHtml={false} />
-
+                        <Markdown children={fetchedPost.content} />
                     </div>
                     <div className="card-footer">
-                        <Link to="/">Back to home</Link>
+                        <Link to="/blog">Back to blog list</Link>
                     </div>
                 </div>
             </div>

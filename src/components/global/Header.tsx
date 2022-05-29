@@ -8,7 +8,7 @@ export default function Header(props: HeaderProps) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id="top">      
       <div className="navbar-brand">
-      <i className="bi bi-journal-code mx-2" aria-label="code" />
+      <i className="bi bi-journal-code mx-2" />
         {props.site}
       </div>
       <button
@@ -47,6 +47,11 @@ export default function Header(props: HeaderProps) {
               A11y
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/blog" activeClassName="active">
+                Blog
+            </NavLink>
+            </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/football" activeClassName="active">
               Football

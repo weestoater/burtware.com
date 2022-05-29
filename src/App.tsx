@@ -24,6 +24,7 @@ export default function App() {
               <Route path="/a11y" component={A11y} />
               <Route path="/about" component={About} />
               <Route exact path="/blog/:id" render={props => <Blog {...props} />} />
+              <Route exact path="/blog" component={Blog} />
               <Route path="/football" component={FootballPage} />
               <Route path="/react" component={ReactPage} />
             </Switch>
