@@ -1,26 +1,20 @@
 import React from "react"
 import { Link }  from "react-router-dom"
 import Markdown from "react-markdown"
-import bloglist from "../posts.json"
+import postsData from "../posts.json"
 
 import PostList from "../components/blogpostlist";
 
 const Blog = (props) => {
     const validId = parseInt(props.match.params.id)
-    let noPostSelected;
+    let postExists = false;
     const fetchedPost = {};
 
     if (!validId || validId == NaN) {
-        return (
-        <div className="row">
-            <div className="col-sm-12">
-                <h1 className="visually-hidden">Blog</h1>
-            </div>
-            <PostList />
-        </div>);
+        console.log('this should find NaN');
     }
 
-    bloglist.forEach((post, i) => {
+    postsData.forEach((post, i) => {
         if (validId === post.id) {
             fetchedPost.title = post.title ? post.title : "No title given"
             fetchedPost.date = post.date ? post.date : "No date given"
@@ -33,6 +27,7 @@ const Blog = (props) => {
 
     return (
         <div className="row">
+        {postExists &&
             <div className="col-lg-6">
                 <div className="card">
                     <div className="card-header">
@@ -43,10 +38,19 @@ const Blog = (props) => {
                         <Markdown children={fetchedPost.content} />
                     </div>
                     <div className="card-footer">
-                        <Link to="/blog">Back to blog list</Link>
+                        <Link to="/">Back to blog list</Link>
                     </div>
                 </div>
+            </div> }
+
+        {postExists == false &&
+        <>
+            <div className="col-sm-12">
+                <h1 className="visually-hidden">Blog</h1>
             </div>
+            <PostList />
+        </>
+        }
         </div>
     )
 }
