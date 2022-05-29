@@ -17,6 +17,22 @@ describe("burtware.com: test homepage", () => {
   });
 
   it("-- link takes you to the A11y page", () => {
-    cy.visit("/").get(":nth-child(1) > .nav-link").click().url("/a11y");
+    cy.visit("/").get(":nth-child(3) > .nav-link").click().url("/a11y");
+  });
+
+  it("- it has a link to Football page", () => {
+    cy.visit("/").get(".nav-link").should("contain", "Football");
+  });
+
+  it("-- link takes you to the Football page", () => {
+    cy.visit("/").get(":nth-child(4) > .nav-link").click().url("/football");
+  });
+
+  it("- it has a link to React page", () => {
+    cy.visit("/").get(".nav-link").should("contain", "React");
+  });
+
+  it("-- link takes you to the React page", () => {
+    cy.visit("/").get(":nth-child(5) > .nav-link").click().url("/react");
   });
 });

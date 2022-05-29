@@ -81,6 +81,28 @@ main {
 
     .card-body {
       background: white;
+
+      .date {
+        font-size: .8rem;
+        display: block;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px dotted #ccc;
+      }
+    }
+
+    .post-link {
+      color: $claret;
+      text-decoration: underline;
+      padding: 0.25rem;  
+      margin-top: 1rem;
+
+      &:focus {
+        background: white;
+        text-decoration: none;
+        outline: 2px solid $claret;
+        margin: .5rem;
+        border-radius: 3px;
+      }
     }
   }
 
@@ -97,11 +119,20 @@ main {
     }
   }
 
+  h1 > .bi {
+    font-size: 2.2rem;
+    color: $claret;
+    background: $amber;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    padding: .3rem .5rem;
+  }
   .mfc-logo {
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
   }
+
   .matchesgrid {
     display: block;
     height: 400px;
