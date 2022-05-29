@@ -10,10 +10,6 @@ const Blog = (props) => {
     let postExists = false;
     const fetchedPost = {};
 
-    if (!validId || validId == NaN) {
-        console.log('this should find NaN');
-    }
-
     postsData.forEach((post, i) => {
         if (validId === post.id) {
             fetchedPost.title = post.title ? post.title : "No title given"
