@@ -3,21 +3,20 @@ import { Link }  from "react-router-dom"
 import Markdown from "react-markdown"
 import postlist from "../posts.json"
 
-const PostList = () => {
 
+const FullPostList = () => {
     const excerptList = postlist.map(post => {
-        return post.content.split(" ").slice(0, 20).join(" ") + "...";
-    });
-
+        return post.content.split(" ").slice(0, 20).join(" ") + "..."
+    })
     return (
         <>
         {postlist.length && 
-            postlist.slice(0,3).map((post, i) => {
+            postlist.map((post, i) => {
                 return (                      
                     <div className="col-lg-4" key={i}>
                         <div className="card mb-4">
                             <div className="card-header">
-                                <i className={`bi ${post.icon}`} /> {post.title}
+                                <i className={`bi ${post.icon}`} /> <small>{post.date}</small> &middot; <b>{post.title}</b> 
                             </div>
                             <div className="card-body">
                                 <Markdown children={excerptList[i]}  />
@@ -29,7 +28,7 @@ const PostList = () => {
             })
         }
         </>
-    );
-};
+    )
+}
 
-export default PostList
+export default FullPostList

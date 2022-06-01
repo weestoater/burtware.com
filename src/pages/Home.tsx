@@ -7,7 +7,16 @@ export default function Home() {
         <div className="col-sm-12">
             <h1 className="visually-hidden">Home</h1>
         </div>
-      <PostList />
+        <div className="col-sm-6">
+          <div className="row">
+            <p>put something in here to fill the gap...</p>
+          </div>
+        </div>
+        <div className="col-sm-6">
+          <div className="row">
+            <PostList />
+          </div>
+        </div>
     </div>
   );
 }

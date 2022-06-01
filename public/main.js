@@ -48,6 +48,7 @@ const getPosts = () => {
                     author: metadata.author ? metadata.author : "No author given",
                     date: metadata.date ? metadata.date : "No date given",
                     icon: metadata.icon ? metadata.icon : "bi-postcard",
+                    image: metadata.image ? metadata.image : "No image given",
                     content: content ? content : "No content given",
                 }
                 postlist.push(post)
