@@ -88,12 +88,24 @@ main {
         margin-bottom: 1.5rem;
         border-bottom: 1px dotted #ccc;
       }
+
+      blockquote {
+        border-left: 5px solid $amber;
+        padding: .5rem 1rem;
+        font-size: 1.5rem;
+        font-weight: 100;
+      }
+      img.img-thumbnail {
+        max-width: 45%;
+      }
     }
 
     .post-link {
+      border: 1px solid $amber;
+      border-radius: .5rem;
       color: $claret;
       text-decoration: underline;
-      padding: 0.25rem;  
+      padding: 0.25rem 0.5rem;  
       margin-top: 1rem;
 
       &:focus {
