@@ -32,7 +32,8 @@ const Blog = (props) => {
                     </div>
                     <div className="card-body">
                         <small className="date">Published on {fetchedPost.date} by {fetchedPost.author}</small>
-                        <img src={`../assets/${fetchedPost.image}`} alt="" className="rounded float-end img-thumbnail" />
+                        {fetchedPost.image !== 'No image given' && 
+                        <img src={`../assets/${fetchedPost.image}`} alt="" className="rounded float-end img-thumbnail" /> }
                         <Markdown children={fetchedPost.content} />
                     </div>
                     <div className="card-footer">

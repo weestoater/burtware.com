@@ -96,21 +96,25 @@ main {
         font-weight: 100;
       }
       img.img-thumbnail {
-        max-width: 45%;
+        width: 45%;
       }
+      
     }
 
     .post-link {
-      border: 1px solid $amber;
-      border-radius: .5rem;
-      color: $claret;
-      text-decoration: underline;
-      padding: 0.25rem 0.5rem;  
+      background: $amber;
+      border-radius: .25rem;
+      color: black;
+      text-decoration: none;
+      padding: .5rem;  
       margin-top: 1rem;
+      
+      &:hover {
 
+      }
+      
       &:focus {
         background: white;
-        text-decoration: none;
         outline: 2px solid $claret;
         margin: .5rem;
         border-radius: 3px;
@@ -226,6 +230,13 @@ main {
     }
   }
 
+  @media screen and (max-width: 768px) {
+    img.img-thumbnail {
+      float: none !important;
+      width: 98% !important;
+      margin: 1rem 1% 2rem !important;
+    } 
+  }
   /*  Random User id's */
 .users {
   display: block;
