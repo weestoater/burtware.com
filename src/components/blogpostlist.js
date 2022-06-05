@@ -12,7 +12,7 @@ const PostList = () => {
     return (
         <>
         {postlist.length && 
-            postlist.slice(0,3).map((post, i) => {
+            postlist.slice(0,6).map((post, i) => {
                 return (                      
                     <div className="col-lg-4" key={i}>
                         <div className="card mb-4">
