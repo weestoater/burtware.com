@@ -3,9 +3,12 @@ title: markdown project
 author: Ian
 date: April 27, 2022
 icon: bi-markdown
+image: markdown.png
 ---
 
-I have been lucky enough to work on a properly cool project as part of my day-job that involves adding a `markdown` blog to an existing application. I looked at a bunch of options, but eventually settled on the aptly name [react-markdown package](https://github.com/remarkjs/react-markdown).
+I have been lucky enough to work on a properly cool project as part of my day-job that involves adding a `markdown` blog to an existing application.
+
+I looked at a bunch of options, but eventually settled on the aptly name [react-markdown package](https://github.com/remarkjs/react-markdown).
 
 I was also able to find a really good series of videos on youtube and sat down to put what I could into place.
 

@@ -1,7 +1,7 @@
 ---
 title: (re)building the dream
 author: Ian
-date: November 08, 2020
+date: November 8, 2020
 icon: bi-bricks
 image: lego-landrover.png
 ---
