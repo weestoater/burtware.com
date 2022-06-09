@@ -5,6 +5,12 @@ body {
   color: #222;
   background: #eee;
 }
+
+/*  bootstrap icons */
+.bi {
+  font-size: 1.3rem;
+}
+
 /*    skip-link   */
 .visually-hidden-focusable {
   &:focus {
@@ -41,7 +47,7 @@ body {
     margin: 0 0.5rem 0 0.5rem;
   }
   .navbar-toggler {
-    margin-right: 5px !important;
+    margin-right: 1.25rem !important;
   }
   .collapse.show {
     margin-top: 1rem !important;
@@ -76,11 +82,36 @@ main {
   margin-top: 5rem !important;
   min-height: calc(100vh - 125px) !important;
 
+  iframe {
+    box-shadow: 0 0 5px #bababa;
+    border: 5px solid white;
+    border-radius: .5rem;
+    height: 60vh !important;
+    width: 100%;
+  }
+
   .card {
     box-shadow: 0 0 5px #bababa;
+    border-radius: 1rem !important;
+
+    .card-header  {
+      .bi {
+        color: $claret;
+        background: $amber;
+        padding: .25rem;
+        border-radius: .5rem;
+        margin-right: 0.5rem;
+        box-shadow: 0 0 5px #bababa;
+      }
+      small { 
+        font-size: 0.8rem;
+        padding-bottom: 1rem !important;
+      }
+    }
 
     .card-body {
       background: white;
+      border-radius:  0  0 1rem 1rem !important;
 
       .date {
         font-size: .8rem;
@@ -99,25 +130,37 @@ main {
         width: 45%;
         margin: 0 0 5% 5%;
       }
+
+      .blog-post {
+        p:first-child {
+          font-weight: 100;
+          font-size: 1.35rem;
+        }
+      }
+      .blog-post-preview  {
+        height: 170px !important;
+        max-width: 100%;
+        overflow-y: hidden;
+      }
       
     }
 
     .post-link {
-      background: $amber;
+      clear: both;
+      border: 1px solid $amber;
       border-radius: .25rem;
       color: black;
       text-decoration: none;
       padding: .5rem;  
-      margin-top: 1rem;
-      
+      margin-top: 0;
+      float: right;
       &:hover {
-
-      }
-      
+        background: $amber;
+      } 
       &:focus {
         background: white;
-        outline: 2px solid $claret;
-        margin: .5rem;
+        outline: 1px solid $claret;
+        margin: .25rem;
         border-radius: 3px;
       }
     }
@@ -144,6 +187,7 @@ main {
     margin-right: .5rem;
     padding: .3rem .5rem;
   }
+
   .mfc-logo {
     width: 4rem;
     height: 4rem;
@@ -238,15 +282,13 @@ main {
       margin: 1rem 1% 2rem !important;
     } 
   }
-  /*  Random User id's */
+
+/*  Random User id's */
 .users {
   display: block;
   margin: 0;
 
   .user {
-    // float: left; 
-    // width: 48%;
-    // margin: 0 1% 1rem;
     border-radius: 1rem;
     box-shadow: 0 1px 2px #666;
     padding: .5rem;
@@ -352,12 +394,4 @@ footer.footer {
   background: #444;
   color: white;
   font-size: 0.9rem;
-}
-
-/*  bootstrap icons */
-.bi {
-  font-size: 1.2rem;
-}
-.card-header .bi {
-  margin-right: 1.5rem;
 }

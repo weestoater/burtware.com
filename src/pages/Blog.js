@@ -2,12 +2,14 @@ import React from "react"
 import { Link }  from "react-router-dom"
 import Markdown from "react-markdown"
 import postsData from "../posts.json"
+import moment from "moment";
 
 import FullPostList from "../components/fullpostlist";
 
 const Blog = (props) => {
     const validId = parseInt(props.match.params.id)
     let postExists = false;
+    let formattedDate = '';
     const fetchedPost = {};
 
     postsData.forEach((post, i) => {
@@ -20,6 +22,9 @@ const Blog = (props) => {
             fetchedPost.content = post.content ? post.content : "No content given"
             postExists = true
         }
+        if (fetchedPost.date != "No date given" ) {
+            formattedDate = moment(fetchedPost.date).format("dddd DD MMMM 'YY");
+        }
     })
 
     return (
@@ -31,10 +36,12 @@ const Blog = (props) => {
                         <h1><i className={`bi ${fetchedPost.icon}`} />  {fetchedPost.title}</h1>
                     </div>
                     <div className="card-body">
-                        <small className="date">Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                        <small className="date">Published <b>{formattedDate}</b> by {fetchedPost.author}</small>
                         {fetchedPost.image !== 'No image given' && 
                         <img src={`../assets/${fetchedPost.image}`} alt="" className="rounded float-end img-thumbnail" /> }
+                        <div className="blog-post">
                         <Markdown children={fetchedPost.content} />
+                        </div>
                     </div>
                     <div className="card-footer">
                         <Link to="/">Back to home</Link> &middot; <Link to="/blog">Back to blog list</Link> 
