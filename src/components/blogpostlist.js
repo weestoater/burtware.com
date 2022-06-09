@@ -16,7 +16,7 @@ const PostList = () => {
             postlist.slice(0,6).map((post, i) => {
                 let formattedDate = moment(post.date).format("DD MMM 'YY");
                 return (                      
-                    <div className="col-lg-4" key={i}>
+                    <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
                         <div className="card mb-4">
                             <div className="card-header">
                                 <i className={`bi ${post.icon}`} /> {post.title}
