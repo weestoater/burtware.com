@@ -1,7 +1,7 @@
 ---
 title: ag-grid woes
 author: Ian
-date: May 5, 2020
+date: 05/05/2020
 icon: bi-table
 image: ag-grid.png
 ---

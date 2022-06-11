@@ -1,7 +1,7 @@
 ---
 title: Testing times
 author: Ian
-date: October 16, 2021
+date: 10/16/2021
 icon: bi-award
 image: testing-trophy.png
 ---

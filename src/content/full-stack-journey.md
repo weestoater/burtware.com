@@ -1,7 +1,7 @@
 ---
 title: Full stack journey
 author: Ian
-date: August 18, 2020
+date: 08/18/2020
 icon: bi-truck
 image: stone-stack.png
 ---
