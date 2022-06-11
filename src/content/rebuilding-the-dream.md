@@ -6,7 +6,9 @@ icon: bi-bricks
 image: lego-landrover.png
 ---
 
-like everybody and their dog (if you're lucky enough to have one) I've been trying to do some bits'n'bobs around the place during the joy that is _lockdown_. this particular venture is the rehash of my Christmas present Lego Land Defender.
+like everybody and their dog (if you're lucky enough to have one) I've been trying to do some bits'n'bobs around the place during the joy that is _lockdown_.
+
+this particular venture is the rehash of my Christmas present Lego Land Defender.
 
 I made an heroic effort to construct it first time round, completing it in a matter of 3 or 4 rationed days. however, the reason there is a **need** for a **re**build, is that mistakes were made. experience is a valuable asset and in this case I've learned some incredibly useful techniques for _future_ builds.
 
