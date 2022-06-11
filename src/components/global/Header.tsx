@@ -52,11 +52,11 @@ export default function Header(props: HeaderProps) {
                 Blog
             </NavLink>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <NavLink className="nav-link" to="/football" activeClassName="active">
               Football
             </NavLink>
-          </li> */}
+          </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/react" activeClassName="active">
               React
