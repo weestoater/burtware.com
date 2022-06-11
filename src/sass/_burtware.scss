@@ -139,6 +139,11 @@ main {
           font-weight: 100;
           font-size: 1.35rem;
         }
+        img {
+          max-width: 98%;
+          @include drop-shadow;
+          margin: 1rem 1% 2rem;
+        }
       }
       .blog-post-preview  {
         height: 170px !important;
