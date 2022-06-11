@@ -1,5 +1,5 @@
 ---
-title: ag-grid woes
+title: all is good
 author: Ian
 date: 01/16/2020
 icon: bi-emoji-smile

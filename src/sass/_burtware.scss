@@ -1,16 +1,4 @@
-$claret: #54192d;
-$amber: #f8af2f;
-$darkcamo: #1d2d22;
-$midcamo: #45573d;
-$lightcamo: #8c9556;
-$sandcamo: #d9d188;
-
-@mixin drop-shadow {
-    box-shadow: 0 5px 10px $darkcamo;
-    border-radius: 1rem;
-    border: 1px solid black;
-}
-
+@import 'variables';
 
 body {
   color: #222;
@@ -158,6 +146,26 @@ main {
         overflow-y: hidden;
       }
       
+    }
+
+    .card-footer {
+        background: $midcamo;
+        color: white;
+        border-radius: 0 0 1rem 1rem;
+        padding: .75rem;
+        text-transform: uppercase;
+        font-size: .85rem;
+
+        a {
+            color: white;
+            &:hover {
+                color: $lightcamo;
+            }
+            &:focus {
+                color: $darkcamo;
+                outline: 2px solid $sandcamo;
+            }
+        }
     }
 
     .post-link {
@@ -406,7 +414,7 @@ footer.footer {
   width: 100%;
   margin: 0;
   padding: 1rem;
-  border-top: 4px dotted $sandcamo;
+  border-top: 9px double $sandcamo;
   line-height: normal;
   text-align: center;
   background: darken($darkcamo, 5%);
