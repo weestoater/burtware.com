@@ -6,7 +6,7 @@ import Matches from '../components/football/matches';
 export default function FootballPage() {
 
     return (
-        <>
+        <div className="football-page">
             <Intro />
             <div className="row">
             <div className="col-sm-12">
@@ -15,6 +15,6 @@ export default function FootballPage() {
             <Goals />
             <Matches />
             </div>
-        </>
+        </div>
     );
 }
