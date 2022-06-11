@@ -1,7 +1,7 @@
 ---
 title: Find a job you love...
 author: Ian
-date: November 18, 2021
+date: 11/18/2021
 icon: bi-arrow-through-heart
 image: vscode-screengrab.png
 ---

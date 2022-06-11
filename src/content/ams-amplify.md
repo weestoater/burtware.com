@@ -1,7 +1,7 @@
 ---
 title: AWS Amplify
 author: Ian
-date: April 7, 2022
+date: 04/07/2022
 icon: bi-cloud
 image: aws-amplify.jpg
 ---

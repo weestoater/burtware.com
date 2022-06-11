@@ -1,7 +1,7 @@
 ---
 title: Welcome
 author: Ian
-date: March 7, 2022
+date: 03/07/2022
 icon: bi-house
 image: welcome-matt.jpg
 ---

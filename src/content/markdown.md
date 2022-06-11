@@ -1,7 +1,7 @@
 ---
 title: markdown project
 author: Ian
-date: April 27, 2022
+date: 04/27/2022
 icon: bi-markdown
 image: markdown.png
 ---
