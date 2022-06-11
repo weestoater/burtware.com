@@ -1,0 +1,12 @@
+$claret: #54192d;
+$amber: #f8af2f;
+$darkcamo: #1d2d22;
+$midcamo: #45573d;
+$lightcamo: #8c9556;
+$sandcamo: #d9d188;
+
+@mixin drop-shadow {
+    box-shadow: 0 5px 10px $darkcamo;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
