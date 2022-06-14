@@ -83,7 +83,7 @@ body {
 
 main {
   margin-top: 5rem !important;
-  min-height: calc(100vh - 125px) !important;
+  min-height: calc(100vh - 145px) !important;
 
   iframe {
     @include drop-shadow;
@@ -434,7 +434,7 @@ footer.footer {
   display: block;
   width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 1rem .5rem;
   border-top: 9px double $sandcamo;
   line-height: normal;
   text-align: center;
