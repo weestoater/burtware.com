@@ -8,7 +8,7 @@ image: maverick.jpg
 
 Finally managed to get a date arranged to meet up with the **Silver Fox** to go see the highly acclaimed "Top Gun: Maverick".
 
-Lisa's not a _huge_ fan of the _pint-sized_ Mr. T Cruise, but I **love** the flight sequences - especially military aircraft ones like this. Between Top Gun and Firefox, with Clint Eastwood, I'm pretty much dying for the ariel footage.
+Lisa is **NOT** a _huge_ fan of the _pint-sized_ Mr. T Cruise, but I **love** the flight sequences - especially military aircraft ones like this. Between Top Gun and Firefox, with Clint Eastwood, I'm pretty much dying for the ariel footage.
 
 I'm delighted to say we got good seats, in a pretty quiet screening, despite the technology and a '**sick-note**' from the young girl on the till.
 
