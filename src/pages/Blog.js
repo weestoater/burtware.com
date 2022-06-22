@@ -5,6 +5,7 @@ import postsData from "../posts.json"
 import moment from "moment";
 
 import FullPostList from "../components/fullpostlist";
+import BlogNavigation from "../components/global/BlogNavigation";
 
 const Blog = (props) => {
     const validId = parseInt(props.match.params.id)
@@ -30,6 +31,7 @@ const Blog = (props) => {
     return (
         <div className="row">
         {postExists &&
+            <>
             <div className="col-lg-6">
                 <div className="card">
                     <div className="card-header">
@@ -47,7 +49,12 @@ const Blog = (props) => {
                         <Link to="/">Back to home</Link> &middot; <Link to="/blog">Back to blog list</Link> 
                     </div>
                 </div>
-            </div> }
+            </div>
+            <div className="col-lg-3 offset-lg-1">
+                <BlogNavigation />
+            </div> 
+            </>
+        }
 
         {postExists == false &&
         <>
