@@ -1,5 +1,5 @@
 import React from "react"
-import { Link }  from "react-router-dom"
+import { NavLink }  from "react-router-dom"
 import postlist from "../../posts.json"
 import moment from "moment";
 
@@ -18,11 +18,11 @@ const BlogNavigation = () => {
                         let formattedDate = moment(post.date).format("DD:MM:yyyy");
                         return (
                             <li key={i}>
-                                <Link to={`/blog/${post.id}`}>
+                                <NavLink to={`/blog/${post.id}`} activeClassName="active">
                                     <i className={`bi ${post.icon} me-2`} /> 
                                     <span className="title">{post.title}</span> &ndash;&nbsp; 
                                      <small>{formattedDate}</small>
-                                </Link>
+                                </NavLink>
                             </li>
                         )
                     })
