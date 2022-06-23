@@ -24,7 +24,7 @@ const Blog = (props: any) => {
             postExists = true
         }
         if (fetchedPost.date != "No date given" ) {
-            formattedDate = moment(fetchedPost.date).format("dddd DD MMMM 'YY");
+            formattedDate = moment(fetchedPost.date).format("dddd Do MMMM 'YY");
         }
     });
 

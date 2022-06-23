@@ -12,7 +12,7 @@ const FullPostList = () => {
         <>
         {postlist.length && 
             postlist.map((post, i) => {
-                let formattedDate = moment(post.date).format("DD MMM 'YY");
+                let formattedDate = moment(post.date).format("Do MMM 'YY");
                 return (                      
                     <div className="col-lg-3 mb-2" key={i}>
                         <div className="card mb-4">
