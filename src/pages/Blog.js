@@ -32,7 +32,7 @@ const Blog = (props: any) => {
         <div className="row">
         {postExists &&
             <>
-            <div className="col-lg-6 mb-4">
+            <div className="col-lg-6  mb-4">
                 <div className="card">
                     <div className="card-header">
                         <h1><i className={`bi ${fetchedPost.icon}`} />  {fetchedPost.title}</h1>

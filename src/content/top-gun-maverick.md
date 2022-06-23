@@ -1,7 +1,7 @@
 ---
 title: top gun - maverick
 author: Ian
-date: 06/22/2022
+date: 06/20/2022
 icon: bi-camera-reels
 image: maverick.jpg
 ---
