@@ -25,8 +25,7 @@ const BlogNavigation = () => {
                                 </NavLink>
                             </li>
                         )
-                    })
-                    }
+                    })}
                     </ul>
                 </div>                            
             </div>

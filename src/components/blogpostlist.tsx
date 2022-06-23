@@ -14,15 +14,15 @@ const PostList = () => {
         <>
         {postlist.length && 
             postlist.slice(0,6).map((post, i) => {
-            let formattedDate = moment(post.date).format("DD MMM 'YY");
+            const postDateFormatted = moment(post.date).format("Do MMM 'YY");
             return (
-                <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
+                <div className="col-lg-6 col-sm-12" key={i}>
                     <div className="card mb-4">
                         <div className="card-header">
                             <i className={`bi ${post.icon}`} /> {post.title}
                         </div>
                         <div className="card-body">
-                            <small className="float-end date border-info p-1 ps-2 mt-0 mb-1">{formattedDate}</small>
+                            <small className="float-end date border-info p-1 ps-2 mt-0 mb-1">{postDateFormatted}</small>
                             <Markdown children={excerptList[i]}  />
                             <small><Link className="post-link" to={`/blog/${post.id}`}>Read {post.title} &rsaquo;</Link></small>
                         </div>
@@ -35,4 +35,4 @@ const PostList = () => {
     );
 };
 
-export default PostList
+export default PostList;
