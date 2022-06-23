@@ -1,13 +1,13 @@
-import React from "react"
-import { Link }  from "react-router-dom"
-import Markdown from "react-markdown"
-import postsData from "../posts.json"
+import React from "react";
+import { Link }  from "react-router-dom";
+import Markdown from "react-markdown";
+import postsData from "../posts.json";
 import moment from "moment";
 
 import FullPostList from "../components/fullpostlist";
 import BlogNavigation from "../components/global/BlogNavigation";
 
-const Blog = (props) => {
+const Blog = (props: any) => {
     const validId = parseInt(props.match.params.id)
     let postExists = false;
     let formattedDate = '';
@@ -26,13 +26,13 @@ const Blog = (props) => {
         if (fetchedPost.date != "No date given" ) {
             formattedDate = moment(fetchedPost.date).format("dddd DD MMMM 'YY");
         }
-    })
+    });
 
     return (
         <div className="row">
         {postExists &&
             <>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mb-4">
                 <div className="card">
                     <div className="card-header">
                         <h1><i className={`bi ${fetchedPost.icon}`} />  {fetchedPost.title}</h1>
@@ -50,7 +50,7 @@ const Blog = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-3 offset-lg-1">
+            <div className="col-lg-3 offset-lg-1 mb-4">
                 <BlogNavigation />
             </div> 
             </>

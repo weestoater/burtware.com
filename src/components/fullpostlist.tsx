@@ -5,7 +5,7 @@ import postlist from "../posts.json"
 import moment from "moment";
 
 const FullPostList = () => {
-    const excerptList = postlist.map(post => {
+    const excerptList: any = postlist.map(post => {
         return post.content.split(" ").slice(0, 35).join(" ") + "..."
     })
     return (
@@ -14,7 +14,7 @@ const FullPostList = () => {
             postlist.map((post, i) => {
                 let formattedDate = moment(post.date).format("DD MMM 'YY");
                 return (                      
-                    <div className="col-md-4" key={i}>
+                    <div className="col-lg-3 mb-2" key={i}>
                         <div className="card mb-4">
                             <div className="card-header">
                                 <i className={`bi ${post.icon}`} /><small>{formattedDate}</small> &middot; <b>{post.title}</b>
