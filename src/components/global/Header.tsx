@@ -48,6 +48,11 @@ export default function Header(props: HeaderProps) {
             </NavLink>
           </li>
           <li className="nav-item">
+            <NavLink className="nav-link" to="/agile" activeClassName="active">
+              Agile
+            </NavLink>
+          </li>
+          <li className="nav-item">
             <NavLink className="nav-link" to="/blog" activeClassName="active">
                 Blog
             </NavLink>
