@@ -93,6 +93,7 @@ main {
 
   .card {
     @include drop-shadow;
+    margin-bottom: 2rem !important;
 
     .card-header  {
       background: $midcamo;
