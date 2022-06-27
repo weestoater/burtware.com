@@ -1,7 +1,7 @@
 @import 'variables';
 
 body {
-  color: #222;
+  color: #444;
   background: transparent url('/assets/camo-bg-1.png') top left repeat;
 }
 
@@ -97,14 +97,16 @@ main {
       background: white;
       color: $midcamo;
       border-radius: 1rem 1rem 0 0;
+      font-weight: 100;
+      font-size: 1.2rem;
       
       .bi {
         color:white;
         background:$lightcamo;
         padding: .35rem;
         border-radius: .5rem;
-        margin-right: .5rem;
-        font-size: 1.3rem !important;
+        margin-right: .75rem;
+        font-size: 1.1rem !important;
         box-shadow: 0 1px 2px #444;
       }
       small { 
