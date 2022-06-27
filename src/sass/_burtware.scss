@@ -7,7 +7,7 @@ body {
 
 /*  bootstrap icons */
 .bi {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 /*    skip-link   */
@@ -63,24 +63,22 @@ body {
 }
 #topNavBar {
   a.nav-link {
-    padding: 0.25rem .75rem;
+    padding: .5rem .75rem;
+    margin-bottom: 2px;
     color: $claret;
-    border-radius: .5rem;
-    border: 1px solid transparent;
 
     &:hover,
     &:focus {
-      color: $claret;
-      background: $amber;
-      border: 1px dotted $claret;
+      color: $amber;
+      background: $claret;
     }
     &.active {
       background: white;
-      border: 1px solid $claret;
     }
   }
 }
 
+//--  start of main
 main {
   margin-top: 5rem !important;
   min-height: calc(100vh - 145px) !important;
@@ -96,16 +94,18 @@ main {
     margin-bottom: 2rem !important;
 
     .card-header  {
-      background: $midcamo;
-      color: white;
+      background: white;
+      color: $midcamo;
       border-radius: 1rem 1rem 0 0;
       
       .bi {
-        color: $darkcamo;
-        background: white;
-        padding: .25rem;
+        color:white;
+        background:$lightcamo;
+        padding: .35rem;
         border-radius: .5rem;
-        margin-right: 0.5rem;
+        margin-right: .5rem;
+        font-size: 1.3rem !important;
+        box-shadow: 0 1px 2px #444;
       }
       small { 
         font-size: 0.8rem;
@@ -155,7 +155,7 @@ main {
     }
 
     .card-footer {
-        background: $midcamo;
+        background: $darkcamo;
         color: white;
         border-radius: 0 0 1rem 1rem;
         padding: .75rem;
@@ -209,7 +209,7 @@ main {
   }
 
   h1 > .bi {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: $claret;
     background: $amber;
     border-radius: .5rem;
@@ -413,11 +413,11 @@ main {
 
   //--  blog nav list
   nav .card .card-header {
-    background: $lightcamo;
-    padding: .5rem 1rem 0;
+    padding: 1rem 1rem 0;
 
     h2 {
       font-weight: 200;
+      font-size: 1.5rem;
     }
   }
   .blog-nav-list {
