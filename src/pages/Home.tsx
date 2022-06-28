@@ -13,7 +13,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-lg-6 mb-4">
-            <iframe src="https://www.youtube.com/embed/9zEhX_Gxbkc"
+            <iframe src="https://www.youtube.com/embed/i0Z1VKWf3RM"
             title="YouTube video player"></iframe>
         </div>        
     </div>
