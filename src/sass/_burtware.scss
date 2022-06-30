@@ -85,8 +85,19 @@ main {
 
   iframe {
     @include drop-shadow;
-    height: 60vh !important;
+    height: 30vh !important;
     width: 100%;
+  }
+
+  figure {
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+    
+    figcaption {
+      text-align: center;
+    }
   }
 
   .card {
