@@ -12,10 +12,39 @@ export default function Home() {
             <PostList />
           </div>
         </div>
-        <div className="col-lg-6 mb-4">
-            <iframe src="https://www.youtube.com/embed/i0Z1VKWf3RM"
+        <div className="col-lg-3 mb-4">
+          <figure>
+            <iframe src="https://www.youtube.com/embed/i0Z1VKWf3RM" title="YouTube video player"></iframe>
+            <figcaption>Range Rover Sport vs spillway</figcaption>
+          </figure>
+
+          <figure>
+            <iframe src="https://www.youtube.com/embed/R6ygiL366TE" title="YouTube video player"></iframe>
+            <figcaption>Guy Martin in highly modified Land Rover</figcaption>
+          </figure>
+
+
+          
+        </div>
+        <div className="col-lg-3 mb-4">
+          <figure>
+            <iframe src="https://www.youtube.com/embed/XR6PX2TLRFo"
             title="YouTube video player"></iframe>
-        </div>        
+            <figcaption>depeche Mode - I Feel You (live)</figcaption>
+          </figure>
+
+          <figure>
+            <iframe src="https://www.youtube.com/embed/o_l4Ab5FRwM"
+            title="YouTube video player"></iframe>
+            <figcaption>five finger death punch - wrong side of heaven</figcaption>
+          </figure>
+
+          <figure>
+            <iframe src="https://www.youtube.com/embed/xy37XdAwH_A"
+            title="YouTube video player"></iframe>
+            <figcaption>Lindemann - Home Sweet Home (live)</figcaption>
+          </figure>            
+        </div>
     </div>
   );
 }
