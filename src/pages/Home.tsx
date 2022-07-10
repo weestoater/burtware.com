@@ -23,20 +23,12 @@ export default function Home() {
             <figcaption>Guy Martin in highly modified Land Rover</figcaption>
           </figure>
 
-
-          
         </div>
         <div className="col-lg-3 mb-4">
           <figure>
             <iframe src="https://www.youtube.com/embed/XR6PX2TLRFo"
             title="YouTube video player"></iframe>
             <figcaption>depeche Mode - I Feel You (live)</figcaption>
-          </figure>
-
-          <figure>
-            <iframe src="https://www.youtube.com/embed/o_l4Ab5FRwM"
-            title="YouTube video player"></iframe>
-            <figcaption>five finger death punch - wrong side of heaven</figcaption>
           </figure>
 
           <figure>
