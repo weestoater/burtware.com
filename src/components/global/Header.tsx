@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 interface HeaderProps {
   site: string;
 }
@@ -27,46 +26,13 @@ export default function Header(props: HeaderProps) {
 
       <div className="collapse navbar-collapse" id="topNavBar">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          <li className="nav-item">
-            <NavLink
-              className="nav-link"
-              to="/"
-              activeClassName="active"
-              exact={true}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/about" activeClassName="active">
-              About
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/a11y" activeClassName="active">
-              A11y
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/agile" activeClassName="active">
-              Agile
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/blog" activeClassName="active">
-                Blog
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/football" activeClassName="active">
-              Football
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/react" activeClassName="active">
-              React
-            </NavLink>
-          </li>
+          <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
+          <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
+          <li className="nav-item"><a className="nav-link" href="/a11y">A11y</a></li>
+          <li className="nav-item"><a className="nav-link" href="/agile">Agile</a></li>
+          <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
+          <li className="nav-item"><a className="nav-link" href="/football">Football</a></li>
+          <li className="nav-item"><a className="nav-link" href="/react">React</a></li>
         </ul>
       </div>
     </nav>
