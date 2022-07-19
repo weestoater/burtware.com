@@ -2,7 +2,7 @@
 
 body {
   color: #222;
-  background: transparent; // url('/assets/camo-bg-1.png') top left repeat;
+  background: transparent url('/assets/octo-blue-wallpaper1.png') top left repeat; // #96e2f6; //
 }
 
 /*  bootstrap icons */
@@ -100,15 +100,15 @@ main {
     margin-bottom: 2rem !important;
 
     .card-header  {
-      //  background: white;
-      //  color: $midcamo;
+      background: $octo-blue400;
+      color: white;
       //  border-radius: 1rem 1rem 0 0;
       font-weight: 500;
       font-size: 1.35rem;
       
       .bi {
-        color:white;
-        background: cornflowerblue;
+        color: $octo-blue300;
+        background: white;
         padding: .35rem;
         border-radius: .5rem;
         margin-right: .75rem;
@@ -165,7 +165,7 @@ main {
     .card-footer {
         background: $darkcamo;
         color: white;
-        border-radius: 0 0 1rem 1rem;
+        //  border-radius: 0 0 1rem 1rem;
         padding: .75rem;
         text-transform: uppercase;
         font-size: .85rem;
@@ -184,7 +184,7 @@ main {
 
     .post-link {
       clear: both;
-      border: 1px solid cornflowerblue;
+      border: 1px solid $octo-blue100;
       border-radius: .25rem;
       color: black;
       text-decoration: none;
@@ -192,12 +192,12 @@ main {
       margin-top: 0;
       float: right;
       &:hover {
-        background: cornflowerblue;
+        background: $octo-blue100;
         color: black;
       } 
       &:focus {
         background: white;
-        outline: 1px solid cornflowerblue;
+        outline: 3px solid $octo-blue300;
         margin: .25rem;
         border-radius: 3px;
       }
