@@ -5,6 +5,8 @@ $midcamo: #45573d;
 $lightcamo: #8c9556;
 $sandcamo: #d9d188;
 
+$lightblue: #96e2f6;
+
 //-- octonauts
 $octo-orange100: #e6c212;
 $octo-orange200: #e2a900;
@@ -23,6 +25,6 @@ $octo-blue400: #035ba3;
 
 @mixin drop-shadow {
     box-shadow: 0 5px 10px $darkcamo;
-    border-radius: 1rem;
+    //  border-radius: 1rem;
     border: 1px solid black;
 }
