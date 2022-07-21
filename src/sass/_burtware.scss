@@ -75,11 +75,17 @@ body {
     padding: .5rem .75rem;
     margin-bottom: 2px;
     color: white;
+    border-radius: 4px;
 
     &:hover,
     &:focus {
       background: $octo-green400;
       color: white;
+    }
+
+    &.active {
+      background: white;
+      color: $octo-blue300;
     }
   }
 }
