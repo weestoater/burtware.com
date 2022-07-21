@@ -5,7 +5,7 @@ interface HeaderProps {
 
 export default function Header(props: HeaderProps) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="top">      
+    <nav className="navbar navbar-expand-lg navbar-dark" id="top">      
       <div className="navbar-brand">
       <i className="bi bi-journal-code mx-2" />
         {props.site}

@@ -2,7 +2,7 @@
 
 body {
   color: #222;
-  background: transparent url('/assets/octo-blue-wallpaper1.png') top left repeat; // #96e2f6; //
+  background: transparent url('/assets/octo-blue-wallpaper1.png') top left repeat;
 }
 
 /*  bootstrap icons */
@@ -33,20 +33,29 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
-  //  background: lighten($amber, 5%) !important;
-  //  color: $claret !important;
-  border-bottom: 1px solid $claret;
+  background: $octo-green100; 
+  color: white;
+  border-bottom: 3px double $octo-green400;
   margin-bottom: 1rem;
 
   .bi {
     font-weight: bold;
+    color: white;
   }
   .navbar-brand {
     display: inline-block;
     margin: 0 0.5rem 0 0.5rem;
+    color: white;
   }
   .navbar-toggler {
     margin-right: 1.25rem !important;
+    border: 1px solid whitesmoke;
+
+    &:hover ,
+      &:focus {
+        background: $octo-green400;
+    }
+  
   }
   .collapse.show {
     margin-top: 1rem !important;
@@ -65,10 +74,12 @@ body {
   a.nav-link {
     padding: .5rem .75rem;
     margin-bottom: 2px;
+    color: white;
 
     &:hover,
     &:focus {
-      color: $claret;
+      background: $octo-green400;
+      color: white;
     }
   }
 }
@@ -85,13 +96,17 @@ main {
   }
 
   figure {
-    background: white;
-    color: black;
-    padding: 1rem;
-    border-radius: .5rem;
+    // background: white;
+    // color: black;
+    // padding: 1rem;
+    // border-radius: .25rem;
     
     figcaption {
       text-align: center;
+      background: white;
+        color: black;
+        padding: 1rem;
+        border-radius: .25rem;
     }
   }
 
@@ -100,7 +115,7 @@ main {
     margin-bottom: 2rem !important;
 
     .card-header  {
-      background: $octo-blue400;
+      background: $octo-blue300;
       color: white;
       //  border-radius: 1rem 1rem 0 0;
       font-weight: 500;
@@ -498,7 +513,7 @@ footer.footer {
   width: 100%;
   margin: 0;
   padding: 1rem 1rem .5rem;
-  border-top: 9px double $sandcamo;
+  border-top: 9px double $octo-blue100;
   line-height: normal;
   text-align: center;
   background: darken($darkcamo, 5%);
