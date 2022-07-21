@@ -33,9 +33,9 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
-  background: $octo-green400; 
+  background: $octo-green100; 
   color: white;
-  border-bottom: 3px double $octo-green400;
+  border-bottom: 7px double white;
   margin-bottom: 1rem;
 
   .bi {
@@ -85,7 +85,7 @@ body {
 
     &.active {
       background: white;
-      color: $octo-blue300;
+      color: $octo-blue100;
     }
   }
 }
@@ -101,12 +101,7 @@ main {
     width: 100%;
   }
 
-  figure {
-    // background: white;
-    // color: black;
-    // padding: 1rem;
-    // border-radius: .25rem;
-    
+  figure {    
     figcaption {
       text-align: center;
       background: white;
@@ -186,7 +181,6 @@ main {
     .card-footer {
         background: $darkcamo;
         color: white;
-        //  border-radius: 0 0 1rem 1rem;
         padding: .75rem;
         text-transform: uppercase;
         font-size: .85rem;
@@ -213,8 +207,8 @@ main {
       margin-top: 0;
       float: right;
       &:hover {
-        background: $octo-blue100;
-        color: black;
+        background: $octo-blue400;
+        color: white;
       } 
       &:focus {
         background: white;
@@ -455,7 +449,7 @@ main {
     padding: 0;
     max-height: 60vh;
     overflow-y: auto;
-    border: 1px solid $sandcamo;
+    border: 1px solid $octo-blue400;
 
     li {
       list-style-type: none;
@@ -470,18 +464,18 @@ main {
         text-decoration: none;
 
         &:hover {
-          background: $sandcamo;
-          color: black;
+          background: $octo-blue100;
+          color: white;
         }
 
         &.active {
-          background: $midcamo;
+          background: $octo-blue400;
           color: white;
         }
 
         .bi {
           padding: .35rem;
-          background: $midcamo;
+          background: $octo-blue300;
           color:white;
           border-radius: 6px;
         }
