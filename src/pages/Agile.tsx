@@ -4,6 +4,9 @@ import { AgileNav } from '../components/global/AgileNav';
 export function Agile() {
     return (
         <div className="row">
+            <div className="col-sm-12">
+                <h1 className="visually-hidden">Agile</h1>
+            </div>
             <div className="col-sm-9">
                 <div className="card">
                     <div className="card-header">

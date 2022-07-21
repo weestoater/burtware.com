@@ -1,5 +1,17 @@
 [
     {
+        "season": "2022-23",
+        "details": [
+            {
+                "scored": 0,
+                "conceded": 1,
+                "date": "21/07/22",
+                "opposition": "Sligo Rovers",
+                "venue": "Home"
+            }
+        ]
+    },
+    {
         "season": "2021-22",
         "details": [
             {
