@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="row">    
             <div className="col-sm-4">
               <a href="https://www.linkedin.com/in/ianburrett/" target="_blank" className="me-4">
-                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin"><span className="visually-hidden">LinkedIn profile</span></i>
               </a>
               <a href="https://twitter.com/burtware" target="_blank">
-                <i className="bi bi-twitter"></i>
+                <i className="bi bi-twitter"><span className="visually-hidden">Twitter account</span></i>
               </a>
             </div>
             <div className="col-sm-8">
