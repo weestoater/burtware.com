@@ -6,7 +6,7 @@ icon: bi-arrow-through-heart
 image: vscode-screengrab.png
 ---
 
-> and you'll never work a day in your life!
+> you'll never work a day in your life!
 
 Anyone who knows me will appreciate that I regularly recite this mantra but I’ve perhaps been fooling myself a little in that I haven’t really ‘loved’ my job for the last wee while.
 
