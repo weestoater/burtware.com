@@ -85,7 +85,7 @@ body {
 
     &.active {
       background: white;
-      color: $octo-blue100;
+      color: black;
     }
   }
 }
@@ -517,7 +517,12 @@ footer {
   border-top: 9px double $octo-blue100;
   line-height: normal;
   text-align: center;
-  background: darken($darkcamo, 5%);
+  background: black;
   color: white;
   font-size: 0.9rem;
+
+  a {
+    background: black;
+    color: white;
+  }
 }
