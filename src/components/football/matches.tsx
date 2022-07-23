@@ -34,11 +34,15 @@ export default function Matches() {
                 {item.details.map((gm, index) =>
                     <div key={index}  className="card">
                         <div className="card-header">
-                            <small>{gm.date}</small> - <b>{gm.opposition}</b> <small className="float-end">{gm.venue}</small>
+                            <small>{gm.date}</small> - <b>{gm.opposition}</b>
                         </div>
                         <div className="card-body">
                             <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
-                        </div>                        
+                        </div>
+                        <div className="card-footer">
+                            {gm.league ? gm.league : 'SPFL'}    
+                            <small className="float-end">&middot; {gm.venue} &middot; </small>
+                        </div>                     
                     </div>
                 )}
             </div>
