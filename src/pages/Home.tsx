@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="row">
         <div className="col-sm-12">
-            <h1 className="white">Welcome to the <code>HOME</code> of burtware</h1>
+            <h1 className="white">Welcome to <code>burtware</code></h1>
         </div>
         <div className="col-lg-6 mb-4">
           <div className="row">

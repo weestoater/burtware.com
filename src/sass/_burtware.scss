@@ -100,11 +100,9 @@ main {
     margin-bottom: 1.5rem;
     &.white { 
       color: white;
-      background: rgba(255,255,255,.35);
-      padding: .5rem 1rem;
+      padding: 0 1rem;
+      margin: 0 0 1rem;
       text-align: center;
-      border-radius: .5rem;
-      box-shadow: 0 1px 3px black;
       text-shadow: 0 1px 3px black;
     }
     code {
@@ -145,6 +143,8 @@ main {
 
   .card {
     margin-bottom: 2rem !important;
+    border: none !important;
+    box-shadow: 0 5px 10px $octo-blue400;
 
     .card-header  {
       background: $octo-blue300;
@@ -157,13 +157,19 @@ main {
         background: white;
         padding: .35rem;
         border-radius: .5rem;
-        margin-right: .75rem;
+        margin: 0 .75rem 1rem 0;
         font-size: 1.1rem !important;
       }
 
       small { 
         font-size: 0.8rem;
         padding-bottom: 1rem !important;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.8rem;
       }
     }
 
