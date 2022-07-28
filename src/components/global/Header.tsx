@@ -31,6 +31,7 @@ export default function Header(props: HeaderProps) {
           <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
           <li className="nav-item"><a className="nav-link" href="/a11y">A11y</a></li>
           <li className="nav-item"><a className="nav-link" href="/agile">Agile</a></li>
+          <li className="nav-item"><a className="nav-link" href="/biking">Biking</a></li>
           <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
           <li className="nav-item"><a className="nav-link" href="/football">Football</a></li>
           <li className="nav-item"><a className="nav-link" href="/react">React</a></li>
