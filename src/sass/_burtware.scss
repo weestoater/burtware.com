@@ -119,6 +119,14 @@ main {
     width: 90% !important;
   }
 
+  .white-border {
+    border: 25px solid white;
+  }
+  .polaroid {
+    border: 10px solid white;
+    border-bottom: 25px solid white;
+  }
+
   iframe {
     @include drop-shadow;
     height: 30vh !important;
