@@ -7,7 +7,7 @@ export default function LochMorlichContent() {
         <div className="col-lg-4">
             <div className="card mb-4">
                 <div className="card-header">
-                    <i className="bi bi-bicycle" /> Loch Morlicg &amp; Cairngorms
+                    <i className="bi bi-bicycle" /> Loch Morlich &amp; Cairngorms
                 </div>
                 <div className="card-body">
                     <div className="text-center">
