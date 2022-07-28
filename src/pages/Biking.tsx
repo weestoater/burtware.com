@@ -1,6 +1,7 @@
 import React from 'react';
 import BikingIntroContent from '../components/biking/BikingIntroContent';
 import CulbinForestContent from '../components/biking/CulbinForestContent';
+import LochMorlichContent from '../components/biking/LochMorlichContent';
 
 export default function Biking() {
     return (
@@ -10,6 +11,7 @@ export default function Biking() {
             </div>
             <BikingIntroContent />
             <CulbinForestContent />
+            <LochMorlichContent />
         </div>
     );
 }
