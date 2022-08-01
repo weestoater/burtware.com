@@ -3,6 +3,22 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 1,
+                "conceded": 0,
+                "date": "31/07/22",
+                "opposition": "St Mirren",
+                "venue": "Away",
+                "league": ""
+            },
+            {
+                "scored": 0,
+                "conceded": 2,
+                "date": "28/07/22",
+                "opposition": "Sligo Rovers",
+                "venue": "Away",
+                "league": "Europa Conference League"
+            },
+            {
                 "scored": 0,
                 "conceded": 1,
                 "date": "21/07/22",

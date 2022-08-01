@@ -27,6 +27,7 @@ export default function Matches() {
         }
     }
 
+    
     const matcheslist = matchesData.map((item, key) => 
         <div className="col-md-6 mb-2" key={key}>
             <h3>{item.season}</h3>
@@ -37,7 +38,7 @@ export default function Matches() {
                             <small>{gm.date}</small> - <b>{gm.opposition}</b>
                         </div>
                         <div className="card-body">
-                            <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
+                            <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />       
                         </div>
                         <div className="card-footer">
                             {gm.league ? gm.league : 'SPFL'}    
