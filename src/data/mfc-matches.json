@@ -4,6 +4,14 @@
         "details": [
             {
                 "scored": 1,
+                "conceded": 2,
+                "date": "06/08/22",
+                "opposition": "St Johnstone",
+                "venue": "Home",
+                "league": ""
+            },
+            {
+                "scored": 1,
                 "conceded": 0,
                 "date": "31/07/22",
                 "opposition": "St Mirren",
