@@ -297,6 +297,27 @@ main {
     }
   }
 
+  .bookings {
+    padding: 0;
+    margin: 1rem 0 0;
+    ul {
+      text-align: left;
+
+      li {
+        .yellow, .red {
+          display: inline-block;
+          height: 1.25rem;
+          width: 1rem;
+          border: 1px solid #333;
+          background: yellow;
+        }
+        .red {
+          background: red;
+        } 
+      }
+    }
+  }
+
   .code-sample {
     display: block;
     width: 95%;

@@ -1,5 +1,4 @@
 import React from 'react';
-import { isTemplateExpression } from 'typescript';
 import matchesData from '../../data/mfc-matches.json';
 
 export default function Matches() {
@@ -27,6 +26,18 @@ export default function Matches() {
         }
     }
 
+    function ShowCards(props: any) {
+        const match = props;
+        if ( match.cards == null || match.cards == undefined) {
+            return '';
+        } else {
+            const cardsList = match.cards.map((item, key) => 
+                <li key={key}><span className={item.card}></span> {item.player} '{item.mins}</li>
+            );
+            return <div className="bookings"><ul>{cardsList}</ul></div>;
+        } 
+    }
+
     
     const matcheslist = matchesData.map((item, key) => 
         <div className="col-md-6 mb-2" key={key}>
@@ -38,7 +49,8 @@ export default function Matches() {
                             <small>{gm.date}</small> - <b>{gm.opposition}</b>
                         </div>
                         <div className="card-body">
-                            <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />       
+                            <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
+                            <ShowCards cards={gm.cards} />       
                         </div>
                         <div className="card-footer">
                             {gm.league ? gm.league : 'SPFL'}    

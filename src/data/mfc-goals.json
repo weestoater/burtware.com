@@ -3,10 +3,18 @@
         "details": [
             {
                 "player": "Kevin Van Veen",
-                "goals": 1
+                "goals": 2
             },
             {
                 "player": "Stephen O'Donnell",
+                "goals": 1
+            },
+            {
+                "player": "Blair Spittal",
+                "goals": 1
+            },
+            {
+                "player": "Callum Slattery",
                 "goals": 1
             }
         ]
