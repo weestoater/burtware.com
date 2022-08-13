@@ -3,12 +3,38 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 3,
+                "conceded": 2,
+                "date": "13/08/22",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Josh Morris",
+                        "card": "yellow",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "35"
+                    }
+                ]
+            },
+            {
                 "scored": 1,
                 "conceded": 2,
                 "date": "06/08/22",
                 "opposition": "St Johnstone",
                 "venue": "Home",
-                "league": ""
+                "league": "",
+                "cards": [{
+                    "player": "Paul McGinn",
+                    "card": "yellow",
+                    "mins": "87"
+                    }
+                ]
             },
             {
                 "scored": 1,
@@ -16,7 +42,34 @@
                 "date": "31/07/22",
                 "opposition": "St Mirren",
                 "venue": "Away",
-                "league": ""
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Barry Maguire",
+                        "card": "yellow",
+                        "mins": "84"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "red",
+                        "mins": "82"
+                    },
+                    {
+                        "player": "Kiam Speirs",
+                        "card": "yellow",
+                        "mins": "73"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "64"
+                    },
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "45+1"
+                    }
+                ]
             },
             {
                 "scored": 0,
