@@ -33,7 +33,7 @@ export default function Matches() {
             const cardsList = match.cards.map((item, key) => 
                 <li key={key}><span className={item.card}></span> {item.player} '{item.mins}</li>
             );
-            return <div className="bookings"><h3>Bookings</h3><ul>{cardsList}</ul></div>;
+            return <div className="bookings"><h3>Bookings &#128533;</h3><ul>{cardsList}</ul></div>;
         } 
     }
 

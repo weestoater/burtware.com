@@ -5,7 +5,7 @@ export default function A11yContent() {
         <div className="col-lg-4 col-md-6">
             <div className="card mb-4">
                 <div className="card-header">
-                    <i className="bi bi-heart-pulse" /> A11y &amp; me
+                    <i className="bi bi-heart-pulse" /> A11y &amp; me &#9855;
                 </div>
                 <div className="card-body">
                     <p>I <strong>really</strong> care about Accessibility (a11y) online and have done for over 20 years now.</p>
