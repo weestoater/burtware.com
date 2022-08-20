@@ -3,6 +3,15 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": "n/a",
+                "conceded": "n/a",
+                "date": "20/08/22",
+                "opposition": "Livingston",
+                "venue": "Home",
+                "league": "",
+                "cards": []
+            },
+            {
                 "scored": 3,
                 "conceded": 2,
                 "date": "13/08/22",
@@ -26,7 +35,7 @@
                 "scored": 1,
                 "conceded": 2,
                 "date": "06/08/22",
-                "opposition": "St Johnstone",
+                "opposition": "St. Johnstone",
                 "venue": "Home",
                 "league": "",
                 "cards": [{
@@ -40,7 +49,7 @@
                 "scored": 1,
                 "conceded": 0,
                 "date": "31/07/22",
-                "opposition": "St Mirren",
+                "opposition": "St. Mirren",
                 "venue": "Away",
                 "league": "",
                 "cards": [
@@ -229,7 +238,7 @@
                 "scored": 2,
                 "conceded": 1,
                 "date": "26/12/21",
-                "opposition": "Livingstone",
+                "opposition": "Livingston",
                 "venue": "Home"
             },
             {
