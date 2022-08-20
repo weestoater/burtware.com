@@ -7,7 +7,7 @@ export function LessonsLearned() {
             <div className="col-sm-9">
                 <div className="card">
                     <div className="card-header">
-                        <h1><i className="bi bi-clipboard-check me-3" /> Lessons Learned</h1>
+                        <h1><i className="bi bi-clipboard-check me-3" /> Lessons Learned - 2019</h1>
                     </div>
                     
                     <div className="card-body">

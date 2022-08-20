@@ -13,19 +13,19 @@ export function MobRules() {
                     <div className="card-body">
                         <img src="/assets/mob-programming.jpg" className="img-fluid float-end img-thumbnail mb-4" alt="Mob Programming" />
                         
-                    <p>Since early July I’ve been working in a different team at my firm.  We use mob programming for a variety of reasons, which I’d like to share.</p>
+                    <p>In early July 2019, I worked in a different team at my firm.  We used mob programming for a variety of reasons, which I’d like to share.</p>
                     
-                    <p>Our team has been formed from a bunch of skills bases, some seasoned Java developers and some complete novices. We also have a Modern Apprentice, a recent University graduate and two members who have come through a coding bootcamp.</p>
+                    <p>Our team had been formed from a bunch of skills bases, some seasoned Java developers and some complete novices. We also had a Modern Apprentice, a recent University graduate and two members who came through a coding bootcamp.</p>
 
-                    <p>We share a codebase with another team, with us focusing on mainly Front End tasks to begin with, now completing tasks from end-to-end. Using mob programming enabled us to very quickly become familiar with the codes architecture and share pain points.</p>
+                    <p>We shared a codebase with another team, with us focusing on mainly Front End tasks to begin with, then completing tasks from end-to-end. Using mob programming enabled us to very quickly become familiar with the codes architecture and share pain points.</p>
 
-                    <p>As a mob we are able to have a group understanding  of the direction we are taking the code and tasks are completed rapidly.</p>
+                    <p>As a mob we were able to have a group understanding of the direction we were taking the code and tasks are completed rapidly.</p>
 
-                    <p>Most recently, ‘specialists’ have been staying off the keyboard in order to navigate others through tasks which they have more experience of. This has been well received by the mob, as others are gaining hands on time doing things outside their comfort zone – i.e. HTML changes and CSS.</p>
+                    <p>Laterly, ‘specialists’ stayed off the keyboard in order to navigate others through tasks which they have more experience of. This was well received by the mob, as others were gaining hands on time doing things outside their comfort zone – i.e. HTML changes and CSS.</p>
 
-                    <p>As the specialist navigating other to do the HTML and CSS changes I’ve found it hugely rewarding for my development. I have been able to impart knowledge of css and debugging methodologies for CSS, that will help the team grow and ultimately lead to more productive tasks in future.</p>
+                    <p>As a specialist navigating others to do the HTML and CSS changes I found it hugely rewarding for my development. I was able to impart knowledge and debugging methodologies for CSS, that helped the team grow and ultimately led to more productive tasks.</p>
 
-                    <p>Couple this with our ability to push back on tasks when ‘the mob’ feels there isn’t enough information or there are conflicting issues and we have a truly powerful beast in the shape of the mob.</p>
+                    <p>Coupled with our ability to push back on tasks when ‘the mob’ felt there wasn’t enough information or there were conflicting issues and we had a truly powerful beast in the shape of the mob.</p>
 
                     <p>Try it, love it, code it.</p>
                     </div>

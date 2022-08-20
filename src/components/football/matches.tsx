@@ -36,6 +36,10 @@ export default function Matches() {
             return <div className="bookings"><h3>Bookings</h3><ul>{cardsList}</ul></div>;
         } 
     }
+
+    function ShowGoals(props: any) {
+        
+    }
     
     const matcheslist = matchesData.map((item, key) => 
         <div className="col-md-6 mb-2" key={key}>
