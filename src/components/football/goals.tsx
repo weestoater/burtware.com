@@ -17,7 +17,7 @@ export default function Goals() {
     return (
         <div className="col-md-6 mb-4">
             <div className="row">
-                <h2>Goal scorers</h2>
+                <h2>&#9917; Goal scorers &#9917;</h2>
                 <hr />
                 {seasonslist}
             </div>

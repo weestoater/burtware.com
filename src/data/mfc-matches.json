@@ -3,13 +3,18 @@
         "season": "2022-23",
         "details": [
             {
-                "scored": "n/a",
-                "conceded": "n/a",
+                "scored": 1,
+                "conceded": 0,
                 "date": "20/08/22",
                 "opposition": "Livingston",
                 "venue": "Home",
                 "league": "",
-                "cards": []
+                "cards": [{
+                        "player": "Josh Morris",
+                        "card": "yellow",
+                        "mins": "61"
+                    }
+                ]
             },
             {
                 "scored": 3,
