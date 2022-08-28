@@ -4,6 +4,21 @@
         "details": [
             {
                 "scored": 1,
+                "conceded": 2,
+                "date": "27/08/22",
+                "opposition": "Kilmarnock",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "19"
+                    }
+                ]
+            },
+            {
+                "scored": 1,
                 "conceded": 0,
                 "date": "20/08/22",
                 "opposition": "Livingston",
