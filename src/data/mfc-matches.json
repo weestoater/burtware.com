@@ -3,6 +3,21 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 4,
+                "conceded": 0,
+                "date": "31/08/22",
+                "opposition": "Inverness Caley Thistle",
+                "venue": "Home",
+                "league": "Scottish League Cup",
+                "cards": [
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "19"
+                    }
+                ]
+            },
+            {
                 "scored": 1,
                 "conceded": 2,
                 "date": "27/08/22",
