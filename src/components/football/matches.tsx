@@ -42,7 +42,7 @@ export default function Matches() {
     }
     
     const matcheslist = matchesData.map((item, key) => 
-        <div className="col-lg-4 col-md-4 col-sm-12 mb-2" key={key}>
+        <div className="col-lg-6 col-md-6 col-sm-12 mb-2" key={key}>
             <h3>{item.season}</h3>
             <div className="matchcards">
                 {item.details.map((gm, index) =>
@@ -65,9 +65,9 @@ export default function Matches() {
     );
     return (
         
-        <div className="col-md-6 mb-4">
+        <div className="col-lg-6 mb-4">
             <div className="row">
-            <h2>Matches</h2>
+            <h2>&#9917; Matches</h2>
             <hr />
             {matcheslist}
             </div>
