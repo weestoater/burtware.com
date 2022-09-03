@@ -5,6 +5,26 @@
             {
                 "scored": 4,
                 "conceded": 0,
+                "date": "03/098/22",
+                "opposition": "Dundee United",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "69"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "55"
+                    }
+                ]
+            },
+            {
+                "scored": 4,
+                "conceded": 0,
                 "date": "31/08/22",
                 "opposition": "Inverness Caley Thistle",
                 "venue": "Home",
