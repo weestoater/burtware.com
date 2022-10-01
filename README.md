@@ -51,11 +51,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-
-##  Markdown blog
-
-I've now added a blog functionality to the home page.  Creating `.md` files for the blog items, then generating the necessary `posts.json` file by running the `yarn server` command.
-This takes all the markdown files and parses them into a static .json file which is read by the page.
-
-
