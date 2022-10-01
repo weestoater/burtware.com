@@ -8,7 +8,30 @@
                 "date": "01/10/22",
                 "opposition": "Celtic",
                 "venue": "Away",
-                "league": ""
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Connor Shields",
+                        "card": "yellow",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Matt Penney",
+                        "card": "yellow",
+                        "mins": "60"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "42"
+                    }
+                    ,
+                    {
+                        "player": "Rickie Lamie",
+                        "card": "yellow",
+                        "mins": "27"
+                    }
+                ]
             },            
             {
                 "scored": 0,
@@ -16,7 +39,24 @@
                 "date": "18/09/22",
                 "opposition": "Hearts",
                 "venue": "Home",
-                "league": ""
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Stuart McKinstry",
+                        "card": "yellow",
+                        "mins": "75"
+                    },
+                    {
+                        "player": "Rolando Aarons",
+                        "card": "yellow",
+                        "mins": "37"
+                    }
+                ]
             },
             {
                 "scored": 0,
