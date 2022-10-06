@@ -6,7 +6,16 @@ exports[`Testing React page can render ReactPage 1`] = `
     class="row"
   >
     <div
-      class="col-lg-3 col-md-6 mb-4"
+      class="col-sm-12"
+    >
+      <h1
+        class="visually-hidden"
+      >
+        React stuff
+      </h1>
+    </div>
+    <div
+      class="col-lg-4 col-md-6 mb-4"
     >
       <div
         class="card"
@@ -35,20 +44,20 @@ exports[`Testing React page can render ReactPage 1`] = `
               <div
                 class="spinner-border"
                 role="status"
-              >
-                <span
-                  class="visually-hidden"
-                >
-                  Loading...
-                </span>
-              </div>
+              />
             </div>
+            <br />
+            <span
+              class="text-center"
+            >
+              Loading...
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="col-lg-3 col-md-6 mb-4"
+      class="col-lg-4 col-md-6 mb-4"
     >
       <div
         class="card"
@@ -111,7 +120,7 @@ exports[`Testing React page can render ReactPage 1`] = `
       </div>
     </div>
     <div
-      class="col-lg-3 col-md-6 mb-4"
+      class="col-lg-4 col-md-6 mb-4"
     >
       <div
         class="card"

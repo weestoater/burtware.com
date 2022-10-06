@@ -3,6 +3,26 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 5,
+                "conceded": 0,
+                "date": "04/10/22",
+                "opposition": "Ross County",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Paul McGinn",
+                        "card": "yellow",
+                        "mins": "32"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "28"
+                    }
+                ]
+            },     
+            {
                 "scored": 1,
                 "conceded": 2,
                 "date": "01/10/22",
