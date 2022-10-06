@@ -3,7 +3,11 @@
         "details": [
             {
                 "player": "Kevin Van Veen",
-                "goals": 7
+                "goals": 10
+            },
+            {
+                "player": "Callum Slattery",
+                "goals": 2
             },
             {
                 "player": "Stephen O'Donnell",
@@ -14,7 +18,7 @@
                 "goals": 1
             },
             {
-                "player": "Callum Slattery",
+                "player": "Joe Efford",
                 "goals": 1
             }
         ]
