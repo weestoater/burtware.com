@@ -1,7 +1,42 @@
 [
     {
         "season": "2022-23",
-        "details": [
+        "details": [            
+            {
+                "scored": 0,
+                "conceded": 1,
+                "date": "04/10/22",
+                "opposition": "Hibernian",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Matt Penney",
+                        "card": "yellow",
+                        "mins": "89"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "yellow",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Joseph Efford",
+                        "card": "yellow",
+                        "mins": "74"
+                    },
+                    {
+                        "player": "Connor Shields",
+                        "card": "red",
+                        "mins": "56"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "44"
+                    }
+                ]
+            },
             {
                 "scored": 5,
                 "conceded": 0,
@@ -47,7 +82,7 @@
                     }
                     ,
                     {
-                        "player": "Rickie Lamie",
+                        "player": "Ricki Lamie",
                         "card": "yellow",
                         "mins": "27"
                     }
