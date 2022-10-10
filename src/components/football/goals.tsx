@@ -15,7 +15,7 @@ export default function Goals() {
     );
 
     return (
-        <div className="col-md-6 mb-4">
+        <div className="col-lg-6 col-md-12 mb-4">
             <div className="row">
                 <h2 className="text-black">&#9917; Goal scorers</h2>
                 <hr />
