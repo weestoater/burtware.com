@@ -1,7 +1,16 @@
 [
     {
         "season": "2022-23",
-        "details": [            
+        "details": [   
+            {
+                "scored": 0,
+                "conceded": 4,
+                "date": "19/10/22",
+                "opposition": "Celtic",
+                "venue": "Home",
+                "league": "Scottish League Cup",
+                "cards": null
+            },         
             {
                 "scored": 1,
                 "conceded": 2,
@@ -25,11 +34,17 @@
                         "card": "yellow",
                         "mins": "45"
                     }
+                ],
+                "goals": [
+                    {
+                        "player": "Stuart McKinstry",
+                        "mins": "77"
+                    }
                 ]
             },{
                 "scored": 0,
                 "conceded": 1,
-                "date": "04/10/22",
+                "date": "08/10/22",
                 "opposition": "Hibernian",
                 "venue": "Away",
                 "league": "",
@@ -78,6 +93,28 @@
                         "player": "Liam Kelly",
                         "card": "yellow",
                         "mins": "28"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "89"
+                    },
+                    {
+                        "player": "Joseph Efford",
+                        "mins": "59"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "51"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "49"
+                    },
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "26"
                     }
                 ]
             },     
