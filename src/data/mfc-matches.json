@@ -1,7 +1,38 @@
 [
     {
         "season": "2022-23",
-        "details": [   
+        "details": [               
+            {
+                "scored": 1,
+                "conceded": 2,
+                "date": "22/10/22",
+                "opposition": "Aberdeen",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "91"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "card": "yellow",
+                        "mins": "53"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "yellow",
+                        "mins": "44"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Stuart McKinstry",
+                        "mins": "55"
+                    }
+                ]
+            },
             {
                 "scored": 0,
                 "conceded": 4,
