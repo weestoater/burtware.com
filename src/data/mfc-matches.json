@@ -3,6 +3,30 @@
         "season": "2022-23",
         "details": [            
             {
+                "scored": 1,
+                "conceded": 2,
+                "date": "16/10/22",
+                "opposition": "Rangers",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Dean Cornelius",
+                        "card": "yellow",
+                        "mins": "90"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "55"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "45"
+                    }
+                ]
+            },{
                 "scored": 0,
                 "conceded": 1,
                 "date": "04/10/22",
@@ -230,7 +254,7 @@
                         "mins": "82"
                     },
                     {
-                        "player": "Kiam Speirs",
+                        "player": "Kian Speirs",
                         "card": "yellow",
                         "mins": "73"
                     },
