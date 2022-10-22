@@ -365,10 +365,12 @@ main {
     }
   }
 
-  .bookings {
+  .bookings, .goals {
     padding: 0;
-    margin: 1rem 0 0;
+    margin: 1rem 0 0 0;
     text-align: left;
+    float: left; 
+    width: 49%;
 
     h3 {
       font-size: 1.1rem;
@@ -376,7 +378,7 @@ main {
     }
 
     ul {
-      max-width: 49%;
+      max-width: 99%;
       float: left;
       text-align: left;
       list-style-type: none;

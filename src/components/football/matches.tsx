@@ -38,7 +38,15 @@ export default function Matches() {
     }
 
     function ShowGoals(props: any) {
-        
+        const match = props;
+        if (match.goals == null || match.goals == undefined) {
+            return null;
+        } else {
+            const goalsList = match.goals.map((item, key) =>
+            <li key={key}>{item.player} '{item.mins}</li>
+            );
+            return <div className="goals"><h3>Goals &#128512;</h3><ul>{goalsList}</ul></div>;
+        }
     }
     
     const matcheslist = matchesData.map((item, key) => 
@@ -52,7 +60,8 @@ export default function Matches() {
                         </div>
                         <div className="card-body">
                             <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
-                            <ShowCards cards={gm.cards} />       
+                            <ShowCards cards={gm.cards} />
+                            <ShowGoals goals={gm.goals} />       
                         </div>
                         <div className="card-footer">
                             {gm.league ? gm.league : 'SPFL'}    
@@ -64,7 +73,6 @@ export default function Matches() {
         </div>
     );
     return (
-        
         <div className="col-lg-6 mb-4">
             <div className="row">
             <h2>&#9917; Matches</h2>
