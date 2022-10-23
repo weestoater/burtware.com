@@ -178,6 +178,12 @@
                         "card": "yellow",
                         "mins": "27"
                     }
+                ],
+                "goals": [
+                    {
+                        "player": "Juranovic (o.g.)",
+                        "mins": "36"
+                    }
                 ]
             },            
             {
@@ -253,6 +259,12 @@
                         "card": "yellow",
                         "mins": "19"
                     }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "14"
+                    }
                 ]
             },
             {
@@ -266,6 +278,12 @@
                         "player": "Josh Morris",
                         "card": "yellow",
                         "mins": "61"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "68"
                     }
                 ]
             },
@@ -287,6 +305,20 @@
                         "card": "yellow",
                         "mins": "35"
                     }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "55"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "52"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "20"
+                    }
                 ]
             },
             {
@@ -300,6 +332,12 @@
                     "player": "Paul McGinn",
                     "card": "yellow",
                     "mins": "87"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Carey (o.g.)",
+                        "mins": "90+1"
                     }
                 ]
             },
@@ -335,6 +373,12 @@
                         "player": "Stephen O'Donnell",
                         "card": "yellow",
                         "mins": "45+1"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "42"
                     }
                 ]
             },
