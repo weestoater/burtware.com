@@ -33,8 +33,11 @@ export default function Home() {
         </figure>
       </div>
       <div className="col-lg-6 mb-2">
-        <h2 className="white">Ethos</h2>
+        <h2>&nbsp;</h2>
         <div className="card">
+          <div className="card-header">
+            <i className="bi bi-wrench-adjustable-circle" /> Ethos
+          </div>
           <div className="card-body">
             <p>I started this space as an online area for me to experiment with ReactJS and data 'patterns' on AWS.  I've not got any desire to add a database or other
               server-side mechanisms - instead I want to concentrate purely on the front end aspects of rendering <code>JSON</code> payloads. </p>
