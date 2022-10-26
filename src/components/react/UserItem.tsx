@@ -9,7 +9,7 @@ function UserItem(props: any) {
       <div className="user col-sm-12 mb-3">
         <img src={user.item.picture.large} alt="" className="picture" />
         <p className="name">
-          <span className="badge rounded-pill bg-info me-2">{user.item.nat}</span>{" "}
+          <span className="badge bg-info text-black me-2">{user.item.nat}</span>{" "}
           {user.item.name.title} {user.item.name.first} {user.item.name.last}
         </p>
         <address className="address">
