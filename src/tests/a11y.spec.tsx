@@ -7,8 +7,11 @@ describe('Testing A11y page', () => {
     it('can render A11yPage', () => {
         render(<A11y />);
         const standards = screen.getByText(/standards/i);
-        const accessibility = screen.getByText(/accessibility/i);
         expect(standards).toBeInTheDocument();
-        expect(accessibility).toBeInTheDocument();
+    });
+
+    it('can render A11yPage', () => {
+        const {container} = render(<A11y />)
+        expect(container).toMatchSnapshot();
     });
 });

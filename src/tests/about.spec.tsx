@@ -11,4 +11,9 @@ describe('Testing About page', () => {
         expect(burtware).toBeInTheDocument();
         expect(cypress).toBeInTheDocument();
     });
+
+    it('can render AboutPage', () => {
+        const {container} = render(<About />)
+        expect(container).toMatchSnapshot();
+    });
 });

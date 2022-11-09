@@ -1,7 +1,7 @@
 import React from 'react';
 import { AgileNav } from '../components/global/AgileNav';
 
-export function Agile() {
+export default function Agile() {
     return (
         <div className="row">
             <div className="col-sm-12">
