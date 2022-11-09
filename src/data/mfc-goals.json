@@ -3,7 +3,7 @@
         "details": [
             {
                 "player": "Kevin Van Veen",
-                "goals": 10
+                "goals": 11
             },
             {
                 "player": "Callum Slattery",
@@ -11,6 +11,10 @@
             },
             {
                 "player": "Stuart McKinstry",
+                "goals": 2
+            },
+            {
+                "player": "Blair Spittal",
                 "goals": 2
             },
             {
@@ -26,7 +30,7 @@
                 "goals": 1
             },
             {
-                "player": "Blair Spittal",
+                "player": "Louis Moult",
                 "goals": 1
             }
         ]

@@ -3,6 +3,41 @@
         "season": "2022-23",
         "details": [            
             {
+                "scored": 2,
+                "conceded": 3,
+                "date": "6/1/22",
+                "opposition": "Hearts",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Stuart McKinstry",
+                        "card": "yellow",
+                        "mins": "84"
+                    },
+                    {
+                        "player": "Louis Moult",
+                        "card": "yellow",
+                        "mins": "61"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "yellow",
+                        "mins": "36"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Louis Moult (pen)",
+                        "mins": "61"
+                    }
+                ]
+            },
+            {
                 "scored": 1,
                 "conceded": 0,
                 "date": "29/10/22",
