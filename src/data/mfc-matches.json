@@ -5,7 +5,7 @@
             {
                 "scored": 1,
                 "conceded": 1,
-                "date": "12/1/22",
+                "date": "12/11/22",
                 "opposition": "St. Johnstone",
                 "venue": "Away",
                 "league": "",
@@ -28,13 +28,39 @@
                     {
                         "player": "Stuart McKinstry",
                         "card": "yellow",
-                        "mins": "28"
+                        "mins": "38"
                     }
                 ],
                 "goals": [
                     {
                         "player": "Blair Spittal",
                         "mins": "45+1"
+                    }
+                ]
+            },
+            {
+                "scored": 1,
+                "conceded": 2,
+                "date": "9/11/22",
+                "opposition": "Celtic",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Josh Morris",
+                        "card": "yellow",
+                        "mins": "81"
+                    },
+                    {
+                        "player": "Louis Moult",
+                        "card": "yellow",
+                        "mins": "64"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Ross Tierney",
+                        "mins": "86"
                     }
                 ]
             },
