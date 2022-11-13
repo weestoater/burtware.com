@@ -3,9 +3,45 @@
         "season": "2022-23",
         "details": [            
             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "12/1/22",
+                "opposition": "St. Johnstone",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "55"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "43"
+                    },
+                    {
+                        "player": "Matt Penney",
+                        "card": "yellow",
+                        "mins": "38"
+                    },
+                    {
+                        "player": "Stuart McKinstry",
+                        "card": "yellow",
+                        "mins": "28"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "45+1"
+                    }
+                ]
+            },
+            {
                 "scored": 2,
                 "conceded": 3,
-                "date": "6/1/22",
+                "date": "6/11/22",
                 "opposition": "Hearts",
                 "venue": "Away",
                 "league": "",
