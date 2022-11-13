@@ -10,6 +10,7 @@ export default function Matches() {
             </div>
         );
     }
+
     function AwayGame(props: any) {
         return (
             <div className="awayscore">
@@ -17,6 +18,20 @@ export default function Matches() {
             </div>
         );
     }
+
+    function ShowResults(props: any) {
+        const resultType: any = props.scored - props.conceded;
+        let resultString: string;
+        if (resultType > 0) {
+            resultString = " Win";
+        } else if (resultType < 0) {
+            resultString = " Loss";
+        } else {
+            resultString = " Draw";
+        };
+        return (<span className="ms-2"> (<b>{resultString}</b>)</span>);
+    }
+
     function ShowScores(props: any) {
         const venue = props.venue;
         if (venue === 'Home') {
@@ -25,6 +40,7 @@ export default function Matches() {
             return <AwayGame scored={props.scored} conceded={props.conceded} />
         }
     }
+
     function ShowCards(props: any) {
         const match = props;
         if ( match.cards == null || match.cards == undefined) {
@@ -56,7 +72,7 @@ export default function Matches() {
                 {item.details.map((gm, index) =>
                     <div key={index}  className="card">
                         <div className="card-header">
-                            <small>{gm.date}</small> - <b>{gm.opposition}</b>
+                            <b>{gm.opposition}</b> - <small>{gm.date} - <ShowResults scored={gm.scored} conceded={gm.conceded} /></small>
                         </div>
                         <div className="card-body">
                             <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
