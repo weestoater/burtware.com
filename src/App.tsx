@@ -8,7 +8,6 @@ import A11y from "./pages/A11y";
 import About from "./pages/About";
 import Agile from "./pages/Agile";
 import Biking from "./pages/Biking";
-import Blog from "./pages/Blog";
 import FootballPage from "./pages/Football";
 import { LessonsLearned } from "./pages/LessonsLearned";
 import { MobRules } from "./pages/MobRules";
@@ -29,8 +28,6 @@ export default function App() {
               <Route path="/about/" component={About} />
               <Route path="/agile/" component={Agile} />
               <Route path="/biking/" component={Biking} />
-              <Route exact path="/blog/:id" render={props => <Blog {...props} />} />
-              <Route exact path="/blog" component={Blog} />
               <Route path="/football" component={FootballPage} />
               <Route path="/lessonslearned" component={LessonsLearned} />
               <Route path="/mobrules/" component={MobRules} />
