@@ -1,69 +1,11 @@
 import React from 'react';
 import matchesData from '../../data/mfc-matches.json';
+import { ShowResults } from './showresults';
+import { ShowScores } from './showscores';
+import { ShowCards } from './showcards';
+import { ShowGoals } from './showgoals';
 
 export default function Matches() {
-
-    function HomeGame(props: any) {
-        return (
-            <div className="homescore">
-                <span className="mfc">{props.scored}</span> - {props.conceded}
-            </div>
-        );
-    }
-
-    function AwayGame(props: any) {
-        return (
-            <div className="awayscore">
-                {props.conceded} - <span className="mfc">{props.scored}</span>
-            </div>
-        );
-    }
-
-    function ShowResults(props: any) {
-        const resultType: any = props.scored - props.conceded;
-        let resultString: string;
-        if (resultType > 0) {
-            resultString = " Win";
-        } else if (resultType < 0) {
-            resultString = " Loss";
-        } else {
-            resultString = " Draw";
-        };
-        return (<span className="ms-2"> (<b>{resultString}</b>)</span>);
-    }
-
-    function ShowScores(props: any) {
-        const venue = props.venue;
-        if (venue === 'Home') {
-            return <HomeGame scored={props.scored} conceded={props.conceded} />
-        } else {
-            return <AwayGame scored={props.scored} conceded={props.conceded} />
-        }
-    }
-
-    function ShowCards(props: any) {
-        const match = props;
-        if ( match.cards == null || match.cards == undefined) {
-            return null;
-        } else {
-            const cardsList = match.cards.map((item, key) => 
-                <li key={key}><span className={item.card}></span> {item.player} '{item.mins}</li>
-            );
-            return <div className="bookings"><h3>Bookings &#128533;</h3><ul>{cardsList}</ul></div>;
-        } 
-    }
-
-    function ShowGoals(props: any) {
-        const match = props;
-        if (match.goals == null || match.goals == undefined) {
-            return null;
-        } else {
-            const goalsList = match.goals.map((item, key) =>
-            <li key={key}>{item.player} '{item.mins}</li>
-            );
-            return <div className="goals"><h3>Goals &#128512;</h3><ul>{goalsList}</ul></div>;
-        }
-    }
     
     const matcheslist = matchesData.map((item, key) => 
         <div className="col-lg-6 col-md-6 col-sm-12 mb-2" key={key}>
