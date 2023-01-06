@@ -2,11 +2,12 @@ import React from "react";
 
 export default function Home() {
   return (
+    <div className="container">
     <div className="row">
       <div className="col-sm-12">
           <h1 className="white">Welcome to <code>burtware</code></h1>
       </div>
-      <div className="col-lg-3 mb-2">
+      <div className="col-lg-4 mb-2">
         <h2 className="white">Car Videos</h2>
         <figure>
           <iframe src="https://www.youtube.com/embed/i0Z1VKWf3RM" title="YouTube video player 1" ></iframe>
@@ -18,7 +19,7 @@ export default function Home() {
           <figcaption>Guy Martin in highly modified Land Rover</figcaption>
         </figure>
       </div>
-      <div className="col-lg-3 mb-2">
+      <div className="col-lg-4 mb-2">
         <h2 className="white">Music Videos</h2>
         <figure>
           <iframe src="https://www.youtube.com/embed/iTKJ_itifQg"
@@ -32,7 +33,7 @@ export default function Home() {
           <figcaption>Lindemann - Home Sweet Home (live)</figcaption>
         </figure>
       </div>
-      <div className="col-lg-6 mb-2">
+      <div className="col-lg-4 mb-2">
         <h2 className="visually-hidden">Thoughts</h2>
         <div className="card no-header">
           <div className="card-header">
@@ -56,6 +57,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
