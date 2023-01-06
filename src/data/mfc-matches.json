@@ -1,7 +1,37 @@
 [
     {
         "season": "2022-23",
-        "details": [
+        "details": [            
+            {
+                "scored": 1,
+                "conceded": 1,
+                "date": "02/01/23",
+                "opposition": "Livingston",
+                "venue": "Away",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "79"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "73"
+                    },
+                    {
+                        "player": "Ricki Lamie",
+                        "card": "yellow",
+                        "mins": "25"
+                    }
+                ],
+                "goals": [{
+                        "player": "Kevin Van Veen",
+                        "mins": "42"
+                    }
+                ]
+            },      
             {
                 "scored": 0,
                 "conceded": 3,
