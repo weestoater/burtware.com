@@ -7,6 +7,10 @@
                 "goals": 13
             },
             {
+                "player": "Stuart McKinstry",
+                "goals": 4
+            },
+            {
                 "player": "Blair Spittal",
                 "goals": 3
             },
@@ -15,7 +19,7 @@
                 "goals": 3
             },
             {
-                "player": "Stuart McKinstry",
+                "player": "Ross Tierney",
                 "goals": 2
             },
             {
@@ -32,10 +36,6 @@
             },
             {
                 "player": "Louis Moult",
-                "goals": 1
-            },
-            {
-                "player": "Ross Tierney",
                 "goals": 1
             }
         ]
