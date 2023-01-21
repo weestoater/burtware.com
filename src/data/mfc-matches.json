@@ -5,6 +5,62 @@
             {
                 "scored": 1,
                 "conceded": 1,
+                "date": "14/01/23",
+                "opposition": "Ross County",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Oliver Crankshaw",
+                        "card": "yellow",
+                        "mins": "37"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "20"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Stuart McKinstry",
+                        "mins": "68"
+                    }
+                ]
+            },
+            {
+                "scored": 2,
+                "conceded": 3,
+                "date": "08/01/23",
+                "opposition": "Hibernian",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sondre Johansen",
+                        "card": "yellow",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "57"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Ross Tierney",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Stuart McKinstry",
+                        "mins": "59"
+                    }
+                ]
+            },
+            {
+                "scored": 1,
+                "conceded": 1,
                 "date": "02/01/23",
                 "opposition": "Livingston",
                 "venue": "Away",

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/global/Header";
 import Footer from "./components/global/Footer";
@@ -22,17 +22,17 @@ export default function App() {
       <div className="container-fluid">
         <main id="main">
           <div className="container-fluid mt-4 mb-4">
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/a11y/" component={A11y} />
-              <Route path="/about/" component={About} />
-              <Route path="/agile/" component={Agile} />
-              <Route path="/biking/" component={Biking} />
-              <Route path="/football" component={FootballPage} />
-              <Route path="/lessonslearned" component={LessonsLearned} />
-              <Route path="/mobrules/" component={MobRules} />
-              <Route path="/react" component={ReactPage} />
-            </Switch>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/a11y/" element={<A11y />} />
+              <Route path="/about/" element={<About />} />
+              <Route path="/agile/" element={<Agile />} />
+              <Route path="/biking/" element={<Biking />} />
+              <Route path="/football" element={<FootballPage />} />
+              <Route path="/lessonslearned" element={<LessonsLearned />} />
+              <Route path="/mobrules/" element={<MobRules />} />
+              <Route path="/react" element={<ReactPage />} />
+            </Routes>
           </div>
         </main>                
       </div>
