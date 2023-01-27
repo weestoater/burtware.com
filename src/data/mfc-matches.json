@@ -3,6 +3,41 @@
         "season": "2022-23",
         "details": [            
             {
+                "scored": 2,
+                "conceded": 0,
+                "date": "21/01/23",
+                "opposition": "Arbroath",
+                "venue": "Away",
+                "league": "Scottish Cup - 4th Round",
+                "cards": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "66"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "51"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Mikael Mandron",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Mikael Mandron",
+                        "mins": "26"
+                    }
+                ]
+            },
+            {
                 "scored": 1,
                 "conceded": 1,
                 "date": "14/01/23",
