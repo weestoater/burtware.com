@@ -1,7 +1,37 @@
 [
     {
         "season": "2022-23",
-        "details": [            
+        "details": [
+            {
+                "scored": 0,
+                "conceded": 0,
+                "date": "04/02/23",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": "",
+                "cards": [],
+                "goals": []
+            },{
+                "scored": 0,
+                "conceded": 2,
+                "date": "01/02/23",
+                "opposition": "St. Johnstone",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "61"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": []
+            },            
             {
                 "scored": 2,
                 "conceded": 0,

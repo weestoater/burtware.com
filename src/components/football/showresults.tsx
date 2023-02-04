@@ -6,9 +6,9 @@ export const ShowResults = (props: any) => {
     if (resultType > 0) {
         resultString = " Win";
     } else if (resultType < 0) {
-        resultString = " Loss";
+        resultString = " Loss ";
     } else {
-        resultString = " Draw";
+        resultString = " Draw ";
     };
     return (<span className="ms-2"> (<b>{resultString}</b>)</span>);
 }
