@@ -1,7 +1,72 @@
 [
     {
         "season": "2022-23",
-        "details": [            
+        "details": [
+            {
+                "scored": 0,
+                "conceded": 0,
+                "date": "04/02/23",
+                "opposition": "Aberdeen",
+                "venue": "Away",
+                "league": "",
+                "cards": [],
+                "goals": []
+            },{
+                "scored": 0,
+                "conceded": 2,
+                "date": "01/02/23",
+                "opposition": "St. Johnstone",
+                "venue": "Home",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "61"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "32"
+                    }
+                ],
+                "goals": []
+            },            
+            {
+                "scored": 2,
+                "conceded": 0,
+                "date": "21/01/23",
+                "opposition": "Arbroath",
+                "venue": "Away",
+                "league": "Scottish Cup - 4th Round",
+                "cards": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "66"
+                    },
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "51"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Mikael Mandron",
+                        "mins": "90+4"
+                    },
+                    {
+                        "player": "Mikael Mandron",
+                        "mins": "26"
+                    }
+                ]
+            },
             {
                 "scored": 1,
                 "conceded": 1,
