@@ -33,26 +33,6 @@
                     }
                 ],
                 "notes": "Steven Hammell sacked after the result."
-            },{
-                "scored": 0,
-                "conceded": 2,
-                "date": "01/02/23",
-                "opposition": "St. Johnstone",
-                "venue": "Home",
-                "league": "",
-                "cards": [
-                    {
-                        "player": "Sean Goss",
-                        "card": "yellow",
-                        "mins": "61"
-                    },
-                    {
-                        "player": "Callum Slattery",
-                        "card": "yellow",
-                        "mins": "32"
-                    }
-                ],
-                "goals": []
             },
             {
                 "scored": 1,
@@ -103,10 +83,7 @@
                         "mins": "32"
                     }
                 ],
-                "goals": [{
-                        "player": "Kevin Van Veen (pen)",
-                        "mins": "75"
-                    }]
+                "goals": []
             },            
             {
                 "scored": 2,
