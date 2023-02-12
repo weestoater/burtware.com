@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/global/Header";
 import Footer from "./components/global/Footer";
@@ -16,7 +16,7 @@ import ReactPage from "./pages/React";
 export default function App() {
   
   return (
-    <Router>
+    <BrowserRouter>
       <a className="visually-hidden-focusable" href="#main">Skip to main content</a>
       <Header site="burtware.com" />
       <div className="container-fluid">
@@ -37,6 +37,6 @@ export default function App() {
         </main>                
       </div>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }

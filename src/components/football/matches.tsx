@@ -19,7 +19,7 @@ export default function Matches() {
                         <div className="card-body">
                             <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
                             <ShowCards cards={gm.cards} />
-                            <ShowGoals goals={gm.goals} />       
+                            <ShowGoals goals={gm.goals} />
                         </div>
                         <div className="card-footer">
                             {gm.league ? gm.league : 'SPFL'}    
