@@ -4,6 +4,7 @@ import { ShowResults } from './showresults';
 import { ShowScores } from './showscores';
 import { ShowCards } from './showcards';
 import { ShowGoals } from './showgoals';
+import { ShowNotes } from  "./shownotes";
 
 export default function Matches() {
     
@@ -20,6 +21,7 @@ export default function Matches() {
                             <ShowScores venue={gm.venue} scored={gm.scored} conceded={gm.conceded} />
                             <ShowCards cards={gm.cards} />
                             <ShowGoals goals={gm.goals} />
+                            <ShowNotes notes={gm.notes} />
                         </div>
                         <div className="card-footer">
                             {gm.league ? gm.league : 'SPFL'}    
