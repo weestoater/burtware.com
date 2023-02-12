@@ -32,7 +32,7 @@
                         "mins": "51"
                     }
                 ],
-                "notes": "Stephen Hammel sacked after the result."
+                "notes": "Steven Hammell sacked after the result."
             },{
                 "scored": 0,
                 "conceded": 2,
@@ -52,12 +52,7 @@
                         "mins": "32"
                     }
                 ],
-                "goals": [
-                    {
-                        "player": "Kevin Van Veen (pen)",
-                        "mins": "75"
-                    }
-                ]
+                "goals": []
             },
             {
                 "scored": 1,
@@ -83,7 +78,12 @@
                         "mins": "39"
                     }
                 ],
-                "goals": []
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "75"
+                    }
+                ]
             },{
                 "scored": 0,
                 "conceded": 2,
