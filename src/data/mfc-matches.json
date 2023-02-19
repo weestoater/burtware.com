@@ -3,9 +3,41 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 2,
+                "conceded": 1,
+                "date": "15/02/23",
+                "opposition": "St. Mirren",
+                "venue": "Home",
+                "video": "https://www.youtube.com/watch?v=khh9v4x3Ixw&t=10s",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "69"
+                    },
+                    {
+                        "player": "Jonathan Obika",
+                        "card": "yellow",
+                        "mins": "35"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Max Johnston",
+                        "mins": "18"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "8"
+                    }
+                ],
+                "notes": "Good result - but more consistancy needed."
+            },
+            {
                 "scored": 1,
                 "conceded": 3,
-                "date": "04/02/23",
+                "date": "11/02/23",
                 "opposition": "Raith Rovers",
                 "venue": "Away",
                 "league": "Scottish Cup - 5th Round",
