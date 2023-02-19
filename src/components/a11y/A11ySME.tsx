@@ -8,6 +8,7 @@ export default function A11ySME() {
                     <i className="bi bi-award" /> A11y &amp; promotion &#9855;
                 </div>
                 <div className="card-body">
+                    <div className="float-end text-info ps-2 pb-1"><i className="bi bi-universal-access-circle fs-1" /></div>
                     <p>I am incredibly lucky to work for a company who support and encourage my passion for A11y.  I was promoted to Vice President for the work I've been doing in this area and I am now even <b>more</b> enthusiastic to prove how important it is and spread my net wider in the firm.</p>
 
                     <p>I love engaging with teams and helping them discover the range of tools available and the steps they need to take to reach and keep A11y compliance. Often there are one or two developers who rise to the challenge and drive their team. This is the best result for everyone - as they can then carry the torch and keep a11y issues to a minimum.</p>
