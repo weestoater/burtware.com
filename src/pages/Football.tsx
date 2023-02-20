@@ -12,8 +12,8 @@ export default function FootballPage() {
             <div className="col-sm-12">
                 <h1 className="visually-hidden">Football</h1>
             </div>
-            <Goals />
             <Matches />
+            <Goals />
             </div>
         </div>
     );
