@@ -4,11 +4,43 @@
         "details": [
             {
                 "scored": 2,
+                "conceded": 0,
+                "date": "19/02/23",
+                "opposition": "Hearts",
+                "venue": "Home",
+                "video": "https://www.youtube.com/watch?v=IJSqJR9y2Wc",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "85"
+                    },
+                    {
+                        "player": "James Furlong",
+                        "card": "yellow",
+                        "mins": "71"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "46"
+                    },
+                    {
+                        "player": "Jonathan Obika",
+                        "mins": "40"
+                    }
+                ],
+                "notes": "Another good result - Alan Burrows last game at the club."
+            },
+            {
+                "scored": 2,
                 "conceded": 1,
                 "date": "15/02/23",
                 "opposition": "St. Mirren",
                 "venue": "Home",
-                "video": "https://www.youtube.com/watch?v=khh9v4x3Ixw&t=10s",
+                "video": "https://www.youtube.com/watch?v=khh9v4x3Ixw",
                 "league": "",
                 "cards": [
                     {
