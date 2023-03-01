@@ -3,6 +3,34 @@
         "season": "2022-23",
         "details": [
             {
+                "scored": 1,
+                "conceded": 1,
+                "date": "25/02/23",
+                "opposition": "Kilmarnock",
+                "venue": "Away",
+                "video": "https://www.youtube.com/watch?v=x7260O29PHE",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "card": "yellow",
+                        "mins": "72"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "65"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Callum Slattery",
+                        "mins": "90"
+                    }
+                ],
+                "notes": "Hard fought game, stunning equaliser from Slattery."
+            },
+            {
                 "scored": 2,
                 "conceded": 0,
                 "date": "19/02/23",
