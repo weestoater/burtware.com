@@ -1,7 +1,39 @@
 [
     {
         "season": "2022-23",
-        "details": [
+        "details": [            
+            {
+                "scored": 2,
+                "conceded": 0,
+                "date": "04/03/23",
+                "opposition": "Ross County",
+                "venue": "Away",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "80"
+                    },
+                    {
+                        "player": "Jonathan Obika",
+                        "card": "yellow",
+                        "mins": "25"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "88"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "74"
+                    }
+                ],
+                "notes": "Great effort in a tough game, soft red card for Staggies."
+            },
             {
                 "scored": 1,
                 "conceded": 1,
