@@ -4,6 +4,42 @@
         "details": [            
             {
                 "scored": 2,
+                "conceded": 4,
+                "date": "18/03/23",
+                "opposition": "Rangers",
+                "venue": "Home",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Callum Slattery",
+                        "card": "red",
+                        "mins": "76"
+                    },
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "22"
+                    },
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "20"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Bevis Mugabi",
+                        "mins": "59"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "3"
+                    }
+                ]
+            },
+            {
+                "scored": 2,
                 "conceded": 0,
                 "date": "04/03/23",
                 "opposition": "Ross County",
