@@ -1,6 +1,7 @@
 import React from "react";
 import ReactHooksPost from "../components/react/ReactHooksPost";
 import RandomUsersPost from "../components/react/RandomUserPost";
+import { ChuckNorrisJoke } from "../components/global/ChuckNorrisJoke";
 
 export default function ReactPage() {
   return (
@@ -34,6 +35,7 @@ export default function ReactPage() {
             </p>
           </div>
         </div>
+        <ChuckNorrisJoke />
       </div>
     </div>
   );
