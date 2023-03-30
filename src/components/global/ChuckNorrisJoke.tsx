@@ -5,7 +5,7 @@ import Spinner from '../global/Spinner';
 export const ChuckNorrisJoke = () => {
     const [joke, setJoke] = useState({});
     const [dadJoke, setDadJoke] = useState({});
-    const jokeCategories = ["animal","career","dev","fashion","food","history","money","movie","music","political","religion","science","sport","travel"]; // ,"explicit","celebrity"
+    const jokeCategories = ["animal","career","dev","fashion","food","history","money","movie","music","science","sport","travel"]; // ,"explicit","celebrity","political","religion"
     const apiUrl = "https://api.chucknorris.io/jokes/random?category=" + jokeCategories;
 
     useEffect(() => {
