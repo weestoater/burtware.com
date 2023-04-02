@@ -4,7 +4,7 @@
         "details": [
             {
                 "player": "Kevin Van Veen",
-                "goals": 18
+                "goals": 20
             },
             {
                 "player": "Stuart McKinstry",
@@ -52,6 +52,10 @@
             },
             {
                 "player": "Bevis Mugabi",
+                "goals": 1
+            },
+            {
+                "player": "Sean Goss",
                 "goals": 1
             }
         ]

@@ -3,6 +3,36 @@
         "season": "2022-23",
         "details": [            
             {
+                "scored": 3,
+                "conceded": 1,
+                "date": "01/04/23",
+                "opposition": "Hibernian",
+                "venue": "Away",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "James Furlong",
+                        "card": "yellow",
+                        "mins": "84"
+                    }
+                ],
+                "goals": [
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "81"
+                    },
+                    {
+                        "player": "Kevin Van Veen (pen)",
+                        "mins": "54"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "mins": "7"
+                    }
+                ]
+            },
+            {
                 "scored": 2,
                 "conceded": 4,
                 "date": "18/03/23",
