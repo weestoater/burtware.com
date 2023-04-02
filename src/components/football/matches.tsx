@@ -10,7 +10,7 @@ import { ShowVideo } from './showvideo';
 export default function Matches() {
     
     const matcheslist = matchesData.map((item, key) => 
-        <div className="col-lg-6 col-md-6 col-sm-12 mb-2" key={key}>
+        <div className="col-lg-4 col-md-4 col-sm-12 mb-2" key={key}>
             <h3>{item.season}</h3>
             <div className="matchcards">
                 {item.details.map((gm, index) =>
