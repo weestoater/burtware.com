@@ -4,7 +4,7 @@
         "details": [
             {
                 "player": "Kevin Van Veen",
-                "goals": 20
+                "goals": 22
             },
             {
                 "player": "Stuart McKinstry",
@@ -27,6 +27,10 @@
                 "goals": 2
             },
             {
+                "player": "Max Johnston",
+                "goals": 2
+            },
+            {
                 "player": "Joe Efford",
                 "goals": 1
             },
@@ -36,10 +40,6 @@
             },
             {
                 "player": "Sondre Johansen",
-                "goals": 1
-            },
-            {
-                "player": "Max Johnston",
                 "goals": 1
             },
             {

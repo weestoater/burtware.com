@@ -4,6 +4,36 @@
         "details": [            
             {
                 "scored": 3,
+                "conceded": 0,
+                "date": "08/04/23",
+                "opposition": "Livingston",
+                "venue": "Home",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Stephen O'Donnell",
+                        "card": "yellow",
+                        "mins": "90+2"
+                    }],
+                "goals": [
+                    {
+                        "player": "Max Johnston",
+                        "mins": "34"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "33"
+                    },
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "9"
+                    }
+                ],
+                "notes": "Fantastic game for the Steelmen!! Gutted KVV had his hat-trick denied."
+            },
+            {
+                "scored": 3,
                 "conceded": 1,
                 "date": "01/04/23",
                 "opposition": "Hibernian",
