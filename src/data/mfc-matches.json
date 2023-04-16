@@ -1,7 +1,40 @@
 [
     {
         "season": "2022-23",
-        "details": [            
+        "details": [
+            {
+                "scored": 1,
+                "conceded": 2,
+                "date": "15/04/23",
+                "opposition": "Dundee United",
+                "venue": "Home",
+                "video": null,
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Dan Casey",
+                        "card": "yellow",
+                        "mins": "84"
+                    },
+                    {
+                        "player": "Liam Kelly",
+                        "card": "yellow",
+                        "mins": "69"
+                    },
+                    {
+                        "player": "Calum Butcher",
+                        "card": "yellow",
+                        "mins": "45+1"
+                    }
+                ],
+                "goals": [                    
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "22"
+                    }
+                ],
+                "notes": "Not a great result, but not the end of the world either. Calm heads and regroup for remainder of the campaign."
+            },            
             {
                 "scored": 3,
                 "conceded": 0,
