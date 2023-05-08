@@ -1,7 +1,39 @@
 [
     {
         "season": "2022-23",
-        "details": [           
+        "details": [  
+            {
+                "scored": 2,
+                "conceded": 0,
+                "date": "07/05/23",
+                "opposition": "Kilmarnock",
+                "venue": "Home",
+                "video": "https://www.youtube.com/watch?v=FyVXrQ72Mh8",
+                "league": "",
+                "cards": [
+                    {
+                        "player": "Callum Slattery",
+                        "card": "yellow",
+                        "mins": "58"
+                    },
+                    {
+                        "player": "Sean Goss",
+                        "card": "yellow",
+                        "mins": "29"
+                    }
+                ],
+                "goals": [                    
+                    {
+                        "player": "Kevin Van Veen",
+                        "mins": "90+1"
+                    },
+                    {
+                        "player": "Blair Spittal",
+                        "mins": "04"
+                    }
+                ],
+                "notes": "Great start with an early goal, but not an easy game by any means.  Solid defence and sublime touch from KVV to get his goal, could have been many more for him. McGinn was robbed by the post too."
+            },         
             {
                 "scored": 1,
                 "conceded": 1,
