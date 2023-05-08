@@ -479,19 +479,15 @@ main {
       }
     }
   }
+
   .notes {
     clear: both;
-    border: 1px solid #ccc !important;
-    // background: $amber;
-    // color: $claret;
-    // font-weight: bold;
-    padding: .5rem;
     margin: 1rem 0 .5rem;
     text-align: left;
-    border-radius: .5rem;
-    box-shadow: 0 3px 5px #ccc;
   }
+
   .video {
+    border-top: 2px dashed $octo-green400;
     text-align: left;
     .bi {
       margin-top: .5rem;
@@ -625,6 +621,13 @@ main {
 
   
   
+}
+
+//--  fitba form
+.form-label {
+  color: $octo-blue300;
+  font-weight: 600;
+  font-family: 'Ubuntu';
 }
 
 //-- guess what this is...
