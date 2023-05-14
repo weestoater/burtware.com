@@ -12,8 +12,6 @@ export const ChuckNorrisJoke = () => {
         getApi(apiUrl).then(setJoke);
     }, []);
 
-
-
     return (
         <div className="card">
           <div className="card-header">

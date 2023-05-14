@@ -9,11 +9,11 @@ export default function FootballPage() {
         <div className="football-page">
             <Intro />
             <div className="row">
-            <div className="col-sm-12">
-                <h1 className="visually-hidden">Football</h1>
-            </div>
-            <Matches />
-            <Goals />
+                <div className="col-sm-12">
+                    <h1 className="visually-hidden">Football</h1>
+                </div>
+                <Matches />
+                <Goals />
             </div>
         </div>
     );

@@ -10,7 +10,7 @@ import { ShowVideo } from './showvideo';
 export default function Matches() {
     
     const matcheslist = matchesData.map((item, key) => 
-        <div className="col-lg-4 col-md-4 col-sm-12 mb-2" key={key}>
+        <div className="col mb-2" key={key}>
             <h3>{item.season}</h3>
             <div className="matchcards">
                 {item.details.map((gm, index) =>
@@ -35,11 +35,10 @@ export default function Matches() {
         </div>
     );
     return (
-        <div className="col-lg-6 mb-4">
+        <div className="col mb-4">
             <div className="row">
-            <h2>&#9917; Matches</h2>
-            <hr />
-            {matcheslist}
+                <h2>&#9917; Games</h2>
+                {matcheslist}
             </div>
             <a href="#top"><i className="bi bi-arrow-up"></i> Back to top</a>
         </div>
