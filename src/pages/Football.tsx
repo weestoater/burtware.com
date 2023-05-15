@@ -1,7 +1,8 @@
 import React from 'react';
 import Intro from '../components/football/intro';
 import Goals from '../components/football/goals';
-import Matches from '../components/football/matches';
+//  import Matches from '../components/football/matches';
+import Matches from '../components/football/matches-script';
 
 export default function FootballPage() {
 
