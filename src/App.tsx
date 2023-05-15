@@ -9,7 +9,6 @@ import About from "./pages/About";
 import Agile from "./pages/Agile";
 import Biking from "./pages/Biking";
 import FootballPage from "./pages/Football";
-import { FitbaForm } from "./pages/FitbaForm";
 import { LessonsLearned } from "./pages/LessonsLearned";
 import { MobRules } from "./pages/MobRules";
 import ReactPage from "./pages/React";
@@ -30,7 +29,6 @@ export default function App() {
               <Route path="/agile/" element={<Agile />} />
               <Route path="/biking/" element={<Biking />} />
               <Route path="/football" element={<FootballPage />} />
-              <Route path="/fitbaform" element={<FitbaForm />} />
               <Route path="/lessonslearned" element={<LessonsLearned />} />
               <Route path="/mobrules/" element={<MobRules />} />
               <Route path="/react" element={<ReactPage />} />
