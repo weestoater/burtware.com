@@ -12,9 +12,9 @@ interface Match {
     scored: number;
     conceded: number;
     venue: string;
-    cards: any;
-    goals: any;
-    notes: any;
+    cards: any[];
+    goals: any[];
+    notes: string;
     video: string;
     league: string;
 }
