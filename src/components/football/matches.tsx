@@ -7,13 +7,25 @@ import { ShowGoals } from './showgoals';
 import { ShowNotes } from  "./shownotes";
 import { ShowVideo } from './showvideo';
 
+interface Match {
+    date: string;
+    scored: string;
+    conceded: string;
+    venue: string;
+    cards: any;
+    goals: any;
+    notes: any;
+    video: string;
+    league: string;
+}
+
 export default function Matches() {
     
     const matcheslist = matchesData.map((item, key) => 
         <div className="col mb-2" key={key}>
             <h3>{item.season}</h3>
             <div className="matchcards">
-                {item.details.map((gm, index) =>
+                {item.details.map((gm: Match, index) =>
                     <div key={index}  className="card">
                         <div className="card-header">
                             <b>{gm.opposition}</b> - <small>{gm.date} - <ShowResults scored={gm.scored} conceded={gm.conceded} /></small>
