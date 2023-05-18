@@ -9,8 +9,8 @@ import { ShowVideo } from './showvideo';
 
 interface Match {
     date: string;
-    scored: string;
-    conceded: string;
+    scored: number;
+    conceded: number;
     venue: string;
     cards: any;
     goals: any;
